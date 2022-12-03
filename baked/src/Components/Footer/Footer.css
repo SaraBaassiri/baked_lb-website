@@ -1,0 +1,81 @@
+.Footer {
+    height: 300px;
+    background-color: #E0D2F5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+
+
+/* Logo Seciton */
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.Logo img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.Logo h3 {
+    color: #575757;
+}
+
+/* Info */
+
+.BakedInfo {
+    width: 20%;
+    color: #575757;
+}
+
+/* Socials */
+
+.Socials {
+    color: #575757;
+}
+
+.Socials div {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Links */
+
+.Links {
+    color: #575757;
+}
+
+.Links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Links div a {
+    text-decoration: none;
+    color: #575757;
+}
+
+/* Get Updated Section */
+
+.GetUpdated {
+    width: 20%;
+    color: #575757;
+}
+
+.GetUpdated input {
+    border: 1px solid #575757;
+    background-color: #E0D2F5;
+    color: #575757;
+    height: 30px;
+    padding: 0 10px;
+}
