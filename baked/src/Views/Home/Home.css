@@ -34,7 +34,7 @@
 }
 
 .Hero-Title {
-  color: #DDD7F2;
+  color: #ddd7f2;
   z-index: 1;
   font-size: 130px;
   margin-top: 15%;
@@ -51,7 +51,7 @@
 }
 
 .HeroButton {
-  background-color: #DDD7F2;
+  background-color: #ddd7f2;
   color: black;
   font-size: 20px;
   font-weight: bold;
@@ -64,13 +64,12 @@
   margin-right: auto;
 }
 
-
 /* Meet the Baker */
 
 .MeetTheBaker {
-  height:100vh;
+  height: 100vh;
   width: 100%;
-  background-color: #E0D2F5;
+  background-color: #e0d2f5;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,7 +93,7 @@
 }
 
 .YellowBackground {
-  background-color: #FBE6A8;
+  background-color: #fbe6a8;
   width: 80%;
   height: 73%;
   border-radius: 76px 76px 0px 0px;
@@ -115,7 +114,7 @@
 
 .BakerButton {
   margin-top: 60px;
-  background-color: #FBE6A8;
+  background-color: #fbe6a8;
   color: black;
   font-size: 20px;
   font-weight: bold;
@@ -136,10 +135,10 @@
 }
 
 .BlackLine {
-    width: 118px;
-    height: 4px;
-    background-color: black;
-    margin-bottom: 5%;
+  width: 118px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 5%;
 }
 
 .Baker-Des {
@@ -149,27 +148,94 @@
 }
 
 /* Products Section */
+
 .Products {
-  height: 90vh;
+  height: 673px;
   width: 100%;
+  /* text-align: center;
+  justify-content: center; */
 }
 
 .InnerProducts {
-  width: 11.5%;
-  margin: auto;
-  text-align: center;
+  width: 89%;
+  margin-left: 107px;
+  margin-right: 107px;
+  /* text-align: center;
+  justify-content: center; */
+}
+
+.card {
+  width: 407px;
+  height: 467px;
+  color: #ffd6de;
+}
+
+.card-img {
+  width: 35%;
+}
+
+.card-img1 {
+}
+.card-img2 {
+}
+.card-img3 {
+}
+.card-img4 {
+}
+.card-img5 {
 }
 
 .Products div h1 {
   float: left;
   margin-top: 80px;
   font-size: 60px;
+  text-align: center;
 }
 
+/*
 .ProductsLine {
   float: right;
   width: 115px;
   height: 4px;
   background-color: black;
+} */
+
+/* Product cards */
+
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #ffd6de;
+  border-radius: 69px;
+  width: 244px;
+  height: 280px;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+/* End of Products Section */
