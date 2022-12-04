@@ -1,11 +1,11 @@
 .Footer {
-    height: 300px;
+    height: 220px;
     background-color: #E0D2F5;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    padding-inline: 5%;
+    padding-top: 40px;
+    padding-inline: 30px;
 }
 
 
@@ -14,17 +14,19 @@
 .Logo {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     height: 200px;
 }
 
 .Logo img {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
 }
 
 
 .Logo h3 {
+    font-size: 16px;
     color: #575757;
 }
 
@@ -78,4 +80,8 @@
     color: #575757;
     height: 30px;
     padding: 0 10px;
+}
+
+.Footer h2 {
+    font-size: 20px;
 }
