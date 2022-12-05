@@ -239,19 +239,20 @@ export default function Home() {
         <h1>All Time Favorites</h1>
         <Grid
           container
-          spacing={3}
-          columns={24}
+          spacing={15}
+          columns={18}
           alignItems="center"
           justify="center"
           style={{ minHeight: "100vh", paddingInline: "5%" }}
         >
           <Grid item xs={8}>
             <div className="favprod">
+              <img src="Ellipse 3.png" alt="" />
               <img src="BlueCup.png" alt="Cupcake" />
               <h3>Cupcake</h3>
               <p id="desc">
-                A very smoochy buttered piece of cake, with a frosty topic that
-                you would fall for.
+                A very smoochy buttered piece of cake, 
+                with a frosty topic that you would fall for.
               </p>
               <p id="price">$5</p>
               <button id="buyNowBtn">Buy Now</button>
@@ -259,11 +260,12 @@ export default function Home() {
           </Grid>
           <Grid item xs={8}>
             <div className="favprod">
+            <img src="Ellipse 2.png" alt="" />
               <img src="RedCake.png" alt="Red Velvet Cookie" />
               <h3>Red Velvet Cookie</h3>
               <p id="desc">
-                A bright red velvet cookies filled with M&M’s, gooey melty dark
-                chocolate chips and rich dark chunks.
+                A bright red velvet cookies filled with M&M’s, 
+                gooey melty dark chocolate chips and rich dark chunks.
               </p>
               <p id="price">$2.5</p>
               <button id="buyNowBtn">Buy Now</button>
@@ -271,11 +273,12 @@ export default function Home() {
           </Grid>
           <Grid item xs={8}>
             <div className="favprod">
+            <img src="Ellipse 1.png" alt="" />
               <img src="MandM.png" alt="M&M" />
               <h3>M&M</h3>
               <p id="desc">
-                A very distinct colorful juicy piece of cake, as each piece
-                reflects the taste of a yummy fruity element.
+                A very distinct colorful juicy piece of cake, 
+                as each piece reflects the taste of a yummy fruity element.
               </p>
               <p id="price">$10</p>
               <button id="buyNowBtn">Buy Now</button>
@@ -283,10 +286,10 @@ export default function Home() {
           </Grid>
         </Grid>
 
-        <div className="BottomDiv">
+        {/* <div className="BottomDiv">
           <h2>Taking your celebration to a whole new level!</h2>
           <button className="HeroButton">View All</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="CreateYourOwn"></div>
