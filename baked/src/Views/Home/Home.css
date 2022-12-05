@@ -284,3 +284,34 @@
 .my-bullet {
   display: none;
 }
+
+
+/* Special Ocasions code */
+
+.SpecialOcasions {
+  height: 100vh;
+  width: 100%;
+}
+
+.SpecialOcasions h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.SpecialImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-inline: 100px;
+}
+
+.Item {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

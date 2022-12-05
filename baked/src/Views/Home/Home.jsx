@@ -12,6 +12,8 @@ import "swiper/css/navigation";
 //Svg
 import banner1 from "../../Assets/banner1.svg";
 import bakerImage from "../../Assets/meetTheBaker.svg";
+import Pumpkin from "../../Assets/Pumpkin.svg";
+import ChrisBrownies from "../../Assets/ChrisBrownies.svg";
 
 export default function Home() {
   return (
@@ -105,6 +107,39 @@ export default function Home() {
       </div>
       {/* End of Products code */}
       {/* ----------------------------------------------------------------------------- */}
+
+      <div className="AllTimeFav"></div>
+      <div className="CreateYourOwn"></div>
+
+      <div className="SpecialOcasions">
+        <h1>Celebrating Special Occasions?</h1>
+        <div className="SpecialImages">
+          <div className="Item">
+            <img src={Pumpkin} alt="" />
+            <h3>Pumpkin Pie</h3>
+            <p>
+              A buttery pie crust cookie with pumpkin pie filling with topping
+              whipped cream
+            </p>
+          </div>
+          <div className="Item">
+            <img src={ChrisBrownies} alt="" />
+            <h3>Pumpkin Pie</h3>
+            <p>
+              A buttery pie crust cookie with pumpkin pie filling with topping
+              whipped cream
+            </p>
+          </div>
+          <div className="Item">
+            <img src={ChrisBrownies} alt="" />
+            <h3>Pumpkin Pie</h3>
+            <p>
+              A buttery pie crust cookie with pumpkin pie filling with topping
+              whipped cream
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
