@@ -116,9 +116,16 @@ export default function Home() {
 
       <div className="SpecialOcasions">
         <h1>Celebrating Special Occasions?</h1>
-        <Grid container spacing={2} columns={24}>
+        <Grid
+          container
+          spacing={3}
+          columns={24}
+          alignItems="center"
+          justify="center"
+          style={{ minHeight: "100vh", paddingInline: "5%" }}
+        >
           <Grid item xs={8}>
-            <div>
+            <div className="item">
               <img src={Pumpkin} alt="" />
               <h3>Pumpkin Pie</h3>
               <p>
@@ -128,9 +135,9 @@ export default function Home() {
             </div>
           </Grid>
           <Grid item xs={8}>
-            <div>
-              <img src={Pumpkin} alt="" />
-              <h3>Pumpkin Pie</h3>
+            <div className="item">
+              <img src={ChrisBrownies} alt="" />
+              <h3>Christmas Brownies</h3>
               <p>
                 A buttery pie crust cookie with pumpkin pie filling with topping
                 whipped cream
@@ -138,9 +145,9 @@ export default function Home() {
             </div>
           </Grid>
           <Grid item xs={8}>
-            <div>
-              <img src={Pumpkin} alt="" />
-              <h3>Pumpkin Pie</h3>
+            <div className="item">
+              <img src={IndependanceDay} alt="" />
+              <h3>Independence Day</h3>
               <p>
                 A buttery pie crust cookie with pumpkin pie filling with topping
                 whipped cream
@@ -148,6 +155,10 @@ export default function Home() {
             </div>
           </Grid>
         </Grid>
+        <div className="BottomDiv">
+          <h2>Taking your celebration to a whole new level!</h2>
+          <button className="HeroButton">View All</button>
+        </div>
       </div>
     </div>
   );
