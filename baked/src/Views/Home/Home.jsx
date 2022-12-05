@@ -230,7 +230,8 @@ export default function Home() {
       </div>
 
       <div className="AllTimeFav">
-        <h1 classname="title">All Time Favorites</h1>
+        <h1>All Time Favorites</h1>
+        <div className="BlackLineFav"></div>
         <Grid
           container
           spacing={15}
@@ -304,7 +305,7 @@ export default function Home() {
         <div className="CustomInner">
           <div className="CustomText">
             <h1 className="Custom-Title">Create Your Own</h1>
-            <div className="BlackLine"></div>
+            <div className="BlackLineCustom"></div>
             <p className="Custom-Des">
               Create your cookie according to your taste!
             </p>

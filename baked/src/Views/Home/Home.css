@@ -314,14 +314,23 @@
 
 /* All Time Favorites Section Styling */
 
-.AllTimeFavorites {
+.AllTimeFav {
   width: 100%;
 }
 
-.AllTimeFavorites h1 {
+.AllTimeFav > h1 {
   text-align: center;
   font-size: 50px;
   margin-top: 100px;
+}
+
+.BlackLineFav {
+  width: 85px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 5%;
+  margin-left: 620px;
+  margin-top: -1%;
 }
 
 .favprodimg {
@@ -352,7 +361,7 @@
 
 .favprod h3 {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 20px;
   text-align: center;
 }
@@ -382,6 +391,7 @@
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+  margin-bottom: 10%;
 }
 
 /* Create Your Own Section Styling */
@@ -453,7 +463,7 @@
   text-align: left;
 }
 
-.BlackLine {
+.BlackLineCustom {
   width: 80px;
   height: 4px;
   background-color: black;
