@@ -31,8 +31,10 @@ export default function Home() {
 
       <div className="MeetTheBaker">
         <div className="BakerImage">
-          <img src={bakerImage} alt="banner1" />
-          <span className="YellowBackground"></span>
+          <div className="ImageContainer">
+            <img src={bakerImage} alt="banner1" />
+            <span className="YellowBackground"></span>
+          </div>
         </div>
         <div className="BakerInner">
           <div className="BakerText">

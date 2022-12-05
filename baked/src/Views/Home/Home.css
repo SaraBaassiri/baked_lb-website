@@ -9,14 +9,14 @@
 }
 
 .HeroImage img {
-  width: 110%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
 }
 
 .HeroInner {
-  width: 35%;
+  width: 30%;
   height: 50%;
 }
 
@@ -76,35 +76,47 @@
   justify-content: space-between;
 }
 
+
+
 .BakerImage {
   position: relative;
   width: 50%;
   height: 100%;
 }
 
-.BakerImage img {
+.ImageContainer {
   position: absolute;
-  bottom: -5.8%;
-  right: 0;
-  z-index: 1;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  overflow: hidden;
+}
+
+.BakerImage img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .YellowBackground {
-  background-color: #fbe6a8;
-  width: 80%;
-  height: 73%;
-  border-radius: 76px 76px 0px 0px;
   position: absolute;
-  right: 0;
-  bottom: 0;
   z-index: 0;
+  width: 75%;
+  border-radius: 60px 60px 0 0;
+  height: 75%;
+  background-color: #fbe6a8;
+  /* Align it behind the baker */
+  bottom: 0;
+  right: 0;
 }
 
 .BakerInner {
-  padding-inline: 100px;
+  padding-inline: 70px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -128,7 +140,6 @@
 }
 
 .Baker-Title {
-  width: 100%;
   color: black;
   font-size: 75px;
   text-align: left;
@@ -239,3 +250,33 @@
 }
 
 /* End of Products Section */
+
+
+@media screen and (max-width: 968px) {
+
+  .Hero-Title {
+    font-size: 50px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+
+  .Baker-Title {
+    width: 100%;
+    color: black;
+    font-size:50px;
+  }
+
+  .BlackLine {
+    width: 118px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 5%;
+  }
+
+  .Baker-Des {
+    color: black;
+    font-size: 20px;
+    font-weight: 250;
+  }
+}
