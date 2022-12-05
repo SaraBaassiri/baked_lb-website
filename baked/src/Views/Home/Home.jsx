@@ -78,32 +78,44 @@ export default function Home() {
               <SwiperSlide classname="card">
                 <img classname="card-img" alt="" src="/brownies.png"></img>
                 <br></br>
-                {/* Slide 1 */}
               </SwiperSlide>
               <SwiperSlide>
                 <img classname="card-img1" alt="" src="/cupcake.png"></img>
-                {/* Slide 2 */}
               </SwiperSlide>
               <SwiperSlide>
                 <img classname="card-img2" alt="" src="/cinna.png"></img>
-                {/* Slide 3 */}
               </SwiperSlide>
               <SwiperSlide>
                 <img classname="card-img3" alt="" src="/cookies.png"></img>
-                {/* Slide 4 */}
               </SwiperSlide>
               <SwiperSlide>
-                <img classname="card-img4" alt="" src="/oreshki.png"></img>
-                {/* Slide 5 */}
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    height: "100%",
+                    width: "100%",
+                    backgroundColor: "yellow",
+                  }}
+                >
+                  <img classname="card-img4" alt="" src="/oreshki.png"></img>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img classname="card-img5" alt="" src="/pinkstuff.png"></img>
-                {/* Slide 6 */}
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    height: "100%",
+                    width: "100%",
+                    backgroundColor: "blue",
+                  }}
+                >
+                  <img classname="card-img5" alt="" src="/pinkstuff.png"></img>
+                </div>
               </SwiperSlide>
-              {/* Incase we needed more than 6 products */}
-              {/* <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide> */}
             </Swiper>
           </div>
         </div>
@@ -113,25 +125,25 @@ export default function Home() {
 
       <div className="AllTimeFav">
         <div className="AllTimeFavInner">
-            <h1>All Time Favorites</h1>
-            <Grid container spacing={2} columns={24}>
-              <Grid item xs={8}>
-                <div className="cupcakeCard">
-                  <div className="pinkBackground">
-                    <img src="/cupcake.png" alt="Cupcake" />
-                  </div>
-                  <div className="cupcakeText">
-                    <h3>Cupcake</h3>
-                    <p className="desc">
-                      A very smoochy buttered piece of cake, 
-                      with a frosty topic that you would fall for.
-                    </p>
-                    <p className="productPrice">$5</p>
-                    <button className="buyNowButton">Buy Now</button>
-                  </div>
+          <h1>All Time Favorites</h1>
+          <Grid container spacing={2} columns={24}>
+            <Grid item xs={8}>
+              <div className="cupcakeCard">
+                <div className="pinkBackground">
+                  <img src="/cupcake.png" alt="Cupcake" />
                 </div>
-                </Grid>
+                <div className="cupcakeText">
+                  <h3>Cupcake</h3>
+                  <p className="desc">
+                    A very smoochy buttered piece of cake, with a frosty topic
+                    that you would fall for.
+                  </p>
+                  <p className="productPrice">$5</p>
+                  <button className="buyNowButton">Buy Now</button>
+                </div>
+              </div>
             </Grid>
+          </Grid>
         </div>
       </div>
 
