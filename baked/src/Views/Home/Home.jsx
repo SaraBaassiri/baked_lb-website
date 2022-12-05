@@ -16,6 +16,8 @@ import Pumpkin from "../../Assets/Pumpkin.svg";
 import ChrisBrownies from "../../Assets/ChrisBrownies.svg";
 import IndependanceDay from "../../Assets/IndependanceDay.svg";
 
+import { Grid } from "@mui/material";
+
 export default function Home() {
   return (
     <div>
@@ -114,32 +116,38 @@ export default function Home() {
 
       <div className="SpecialOcasions">
         <h1>Celebrating Special Occasions?</h1>
-        <div className="SpecialImages">
-          <div className="Item">
-            <img src={Pumpkin} alt="" />
-            <h3>Pumpkin Pie</h3>
-            <p>
-              A buttery pie crust cookie with pumpkin pie filling with topping
-              whipped cream
-            </p>
-          </div>
-          <div className="Item">
-            <img src={ChrisBrownies} alt="" />
-            <h3>Pumpkin Pie</h3>
-            <p>
-              A buttery pie crust cookie with pumpkin pie filling with topping
-              whipped cream
-            </p>
-          </div>
-          <div className="Item">
-            <img src={IndependanceDay} alt="" />
-            <h3>Pumpkin Pie</h3>
-            <p>
-              A buttery pie crust cookie with pumpkin pie filling with topping
-              whipped cream
-            </p>
-          </div>
-        </div>
+        <Grid container spacing={2} columns={24}>
+          <Grid item xs={8}>
+            <div>
+              <img src={Pumpkin} alt="" />
+              <h3>Pumpkin Pie</h3>
+              <p>
+                A buttery pie crust cookie with pumpkin pie filling with topping
+                whipped cream
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={8}>
+            <div>
+              <img src={Pumpkin} alt="" />
+              <h3>Pumpkin Pie</h3>
+              <p>
+                A buttery pie crust cookie with pumpkin pie filling with topping
+                whipped cream
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={8}>
+            <div>
+              <img src={Pumpkin} alt="" />
+              <h3>Pumpkin Pie</h3>
+              <p>
+                A buttery pie crust cookie with pumpkin pie filling with topping
+                whipped cream
+              </p>
+            </div>
+          </Grid>
+        </Grid>
       </div>
     </div>
   );
