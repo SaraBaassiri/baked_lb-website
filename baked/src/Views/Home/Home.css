@@ -179,18 +179,20 @@
   /* margin-left: 64px;
   margin-right: 64px; */
 }
+
 .slide-content {
   justify-content: center;
   align-items: center;
 }
 .image-content,
 .card-content {
-  padding-top: 5px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .card-content h2 {
   font-weight: normal;
   font-family: "poppins" sans-serif;
