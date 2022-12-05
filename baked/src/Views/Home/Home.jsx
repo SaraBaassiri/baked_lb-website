@@ -14,6 +14,7 @@ import banner1 from "../../Assets/banner1.svg";
 import bakerImage from "../../Assets/meetTheBaker.svg";
 import Pumpkin from "../../Assets/Pumpkin.svg";
 import ChrisBrownies from "../../Assets/ChrisBrownies.svg";
+import IndependanceDay from "../../Assets/IndependanceDay.svg";
 
 export default function Home() {
   return (
@@ -131,7 +132,7 @@ export default function Home() {
             </p>
           </div>
           <div className="Item">
-            <img src={ChrisBrownies} alt="" />
+            <img src={IndependanceDay} alt="" />
             <h3>Pumpkin Pie</h3>
             <p>
               A buttery pie crust cookie with pumpkin pie filling with topping

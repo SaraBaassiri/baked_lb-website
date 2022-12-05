@@ -12,7 +12,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: -10;
 }
 
 .HeroInner {
@@ -74,6 +74,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 4;
 }
 
 
@@ -300,18 +301,37 @@
 }
 
 .SpecialImages {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 100px;
-  padding-inline: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-inline: 100px;
+    padding-top: 100px;
 }
 
 .Item {
-  width: 30%;
+  width: 1fr;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+
+.Item img {
+  width:  auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.Item h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Item p {
+  font-size: 20px;
+  margin-top: 20px;
+  width:80%;
+  text-align: center;
 }
