@@ -313,12 +313,34 @@
   margin-top: 100px;
 }
 
-.favprod img {
-  width: 335px;
-  height: 347px;  
-  object-fit: cover;
-  align-self: center;
+.favprodimg {
+  position: relative;
+  top: 0;
+  left: 0;
 }
+
+.eclipse {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.innerImage {
+  position: absolute;
+  top: -10px;
+  left: 14%;
+}
+
+.inner3 {
+  position: absolute;
+  top:0;
+  left: 0;  
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 .favprod h3 {
   font-size: 25px;
@@ -353,91 +375,6 @@
   margin-right: auto;
   text-transform: uppercase;
 }
-
-/* Create Your Own Section Styling */
-
-.CreateYourOwn {
-  height: 100vh;
-  width: 100%;
-  background-color: #C2EDED;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.CustomImage {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.ImageContainer {
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-  width: 75%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.CustomImage img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.CustomInner {
-  padding-inline: 70px;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.CustomButton {
-  margin-top: 60px;
-  background-color: #fbe6a8;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 28px;
-  padding: 12px 30px;
-  border: none;
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-transform: uppercase;
-}
-
-.Custom-Title {
-  color: black;
-  font-size: 50px;
-  text-align: left;
-}
-
-.BlackLine {
-  width: 80px;
-  height: 4px;
-  background-color: black;
-  /* margin-bottom: 2%; */
-  margin-top: -5%;
-  margin-left: 180px;
-}
-
-.Custom-Des {
-  color: black;
-  font-size: 25px;
-  font-weight: 250;
-}
-
 
 /* Special Ocasions code */
 
