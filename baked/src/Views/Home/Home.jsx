@@ -58,6 +58,7 @@ export default function Home() {
 
       <div className="innerproduct">
         <h1 className="title">Products</h1>
+          <div className="ProductsLine"></div>
       </div>
       <div className="Products">
         <Swiper
@@ -229,7 +230,7 @@ export default function Home() {
       </div>
 
       <div className="AllTimeFav">
-        <h1>All Time Favorites</h1>
+        <h1 classname="title">All Time Favorites</h1>
         <Grid
           container
           spacing={15}
