@@ -265,7 +265,7 @@ export default function Home() {
         <h1>Celebrating Special Occasions?</h1>
         <Grid
           container
-          spacing={9}
+          spacing={15}
           columns={18}
           alignItems="center"
           justify="center"
