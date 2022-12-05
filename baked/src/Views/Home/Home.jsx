@@ -111,7 +111,30 @@ export default function Home() {
       {/* End of Products code */}
       {/* ----------------------------------------------------------------------------- */}
 
-      <div className="AllTimeFav"></div>
+      <div className="AllTimeFav">
+        <div className="AllTimeFavInner">
+            <h1>All Time Favorites</h1>
+            <Grid container spacing={2} columns={24}>
+              <Grid item xs={8}>
+                <div className="cupcakeCard">
+                  <div className="pinkBackground">
+                    <img src="/cupcake.png" alt="Cupcake" />
+                  </div>
+                  <div className="cupcakeText">
+                    <h3>Cupcake</h3>
+                    <p className="desc">
+                      A very smoochy buttered piece of cake, 
+                      with a frosty topic that you would fall for.
+                    </p>
+                    <p className="productPrice">$5</p>
+                    <button className="buyNowButton">Buy Now</button>
+                  </div>
+                </div>
+                </Grid>
+            </Grid>
+        </div>
+      </div>
+
       <div className="CreateYourOwn"></div>
 
       <div className="SpecialOcasions">
