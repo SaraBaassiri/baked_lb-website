@@ -280,3 +280,7 @@
     font-weight: 250;
   }
 }
+
+.my-bullet {
+  display: none;
+}

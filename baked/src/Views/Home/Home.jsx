@@ -64,6 +64,7 @@ export default function Home() {
               loopFillGroupWithBlank={true}
               pagination={{
                 clickable: true,
+                bulletClass: "my-bullet",
               }}
               navigation={true}
               modules={[Pagination, Navigation]}
