@@ -57,68 +57,155 @@ export default function Home() {
       </div>
 
       {/* Start of Products code */}
+      <div className="innerproduct">
+        <h1 className="title">Products</h1>
+      </div>
       <div className="Products">
-        <div className="InnerProducts">
-          <h1>Products</h1>
-          <div>
-            <Swiper
-              slidesPerView={3}
-              spaceBetween={120}
-              slidesPerGroup={3}
-              loop={true}
-              loopFillGroupWithBlank={true}
-              pagination={{
-                clickable: true,
-                bulletClass: "my-bullet",
-              }}
-              navigation={true}
-              modules={[Pagination, Navigation]}
-              className="mySwiper"
-            >
-              <SwiperSlide classname="card">
-                <img classname="card-img" alt="" src="/brownies.png"></img>
-                <br></br>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img classname="card-img1" alt="" src="/cupcake.png"></img>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img classname="card-img2" alt="" src="/cinna.png"></img>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img classname="card-img3" alt="" src="/cookies.png"></img>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "100%",
-                    width: "100%",
-                    backgroundColor: "yellow",
-                  }}
-                >
-                  <img classname="card-img4" alt="" src="/oreshki.png"></img>
+      <Swiper
+            slidesPerView={3}
+            spaceBetween={0}
+            slidesPerGroup={1}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="slide-content"
+          >
+        <div>
+          <SwiperSlide>
+            {/* Slide 1 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/brownies2.png" alt="brownies" className="card-img" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Brownies</h2>
+                    </div>
+                  </div>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "100%",
-                    width: "100%",
-                    backgroundColor: "blue",
-                  }}
-                >
-                  <img classname="card-img5" alt="" src="/pinkstuff.png"></img>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {/* Slide 2 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/cupcake2.png" alt="cupcake" className="card-img2" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Cupcakes</h2>
+                    </div>
+                  </div>
                 </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {/* Slide 3 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/cinna.png" alt="Cinnamon Rolls" className="card-img3" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Cinnamon Rolls</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {/* Slide 4 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/cookies.png" alt="cookies" className="card-img4" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Cookies</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {/* Slide 5 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/oreshki.png" alt="Orikesh" className="card-img5" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Orikesh</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {/* Slide 6 */}
+            <div className="slide-container">
+              <div className="slide-content">
+                <div className="card-wrapper">
+                  <div className="card">
+                    <div className="image-content">
+                      <span className="overlay"></span>
+                      <div className="card-image">
+                        <img src="/pinkstuff.png" alt="Macron" className="card-img6" />
+                      </div> 
+                    </div>
+                    <div className="card-content">
+                      <h2 className="productname">Macron</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </div>
+
+  {/* <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div> */}
+        </Swiper>
       </div>
       {/* End of Products code */}
       {/* ----------------------------------------------------------------------------- */}
