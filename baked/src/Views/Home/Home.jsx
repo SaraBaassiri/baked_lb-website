@@ -238,7 +238,7 @@ export default function Home() {
       <div className="AllTimeFav">
         <div className="AllTimeFavInner">
           <h1>All Time Favorites</h1>
-          <Grid container spacing={2} columns={24}>
+          <Grid container spacing={28} columns={24}>
             <Grid item xs={8}>
               <div className="cupcakeCard">
                 <div className="pinkBackground">
@@ -265,13 +265,13 @@ export default function Home() {
         <h1>Celebrating Special Occasions?</h1>
         <Grid
           container
-          spacing={3}
-          columns={24}
+          spacing={9}
+          columns={18}
           alignItems="center"
           justify="center"
           style={{ minHeight: "100vh", paddingInline: "5%" }}
         >
-          <Grid item xs={8}>
+          <Grid item xs={6}>
             <div className="item">
               <img src={Pumpkin} alt="" />
               <h3>Pumpkin Pie</h3>
@@ -281,7 +281,7 @@ export default function Home() {
               </p>
             </div>
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6}>
             <div className="item">
               <img src={ChrisBrownies} alt="" />
               <h3>Christmas Brownies</h3>
@@ -291,7 +291,7 @@ export default function Home() {
               </p>
             </div>
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6}>
             <div className="item">
               <img src={IndependanceDay} alt="" />
               <h3>Independence Day</h3>
