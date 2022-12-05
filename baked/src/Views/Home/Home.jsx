@@ -292,7 +292,23 @@ export default function Home() {
         </div> */}
       </div>
 
-      <div className="CreateYourOwn"></div>
+      <div className="CreateYourOwn">
+        <div className="CustomImage">
+          <div className="ImageContainer">
+            <img src="Two.png" alt="Custom Cookie" />
+          </div>
+        </div>
+        <div className="CustomInner">
+          <div className="CustomText">
+            <h1 className="Custom-Title">Create Your Own</h1>
+            <div className="BlackLine"></div>
+            <p className="Custom-Des">
+              Create your cookie according to your taste!
+            </p>
+            <button className="CustomButton">Compose Now!</button>
+          </div>
+        </div>
+      </div>
 
       <div className="SpecialOcasions">
         <h1>Celebrating Special Occasions?</h1>
