@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css/bundle";
 // Import Swiper styles
@@ -48,54 +48,55 @@ export default function Home() {
           </div>
         </div>
       </div>
-    {/* Start of Products code */}
+
+      {/* Start of Products code */}
       <div className="Products">
         <div className="InnerProducts">
           <h1>Products</h1>
-          <div >
-          <Swiper
-            slidesPerView={3}
-            spaceBetween={120}
-            slidesPerGroup={3}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide classname="card">
-              <img classname="card-img" alt="" src="/brownies.png"></img>
-              <br></br>
-              {/* Slide 1 */}
+          <div>
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={120}
+              slidesPerGroup={3}
+              loop={true}
+              loopFillGroupWithBlank={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide classname="card">
+                <img classname="card-img" alt="" src="/brownies.png"></img>
+                <br></br>
+                {/* Slide 1 */}
               </SwiperSlide>
-            <SwiperSlide>
-            <img classname="card-img1" alt="" src="/cupcake.png"></img>
-              {/* Slide 2 */}
+              <SwiperSlide>
+                <img classname="card-img1" alt="" src="/cupcake.png"></img>
+                {/* Slide 2 */}
               </SwiperSlide>
-            <SwiperSlide>
-            <img classname="card-img2" alt="" src="/cinna.png"></img>
-              {/* Slide 3 */}
+              <SwiperSlide>
+                <img classname="card-img2" alt="" src="/cinna.png"></img>
+                {/* Slide 3 */}
               </SwiperSlide>
-            <SwiperSlide>
-            <img classname="card-img3" alt="" src="/cookies.png"></img>
-              {/* Slide 4 */}
+              <SwiperSlide>
+                <img classname="card-img3" alt="" src="/cookies.png"></img>
+                {/* Slide 4 */}
               </SwiperSlide>
-            <SwiperSlide>
-            <img classname="card-img4" alt="" src="/oreshki.png"></img>
-              {/* Slide 5 */}
+              <SwiperSlide>
+                <img classname="card-img4" alt="" src="/oreshki.png"></img>
+                {/* Slide 5 */}
               </SwiperSlide>
-            <SwiperSlide>
-            <img classname="card-img5" alt="" src="/pinkstuff.png"></img>
-              {/* Slide 6 */}
+              <SwiperSlide>
+                <img classname="card-img5" alt="" src="/pinkstuff.png"></img>
+                {/* Slide 6 */}
               </SwiperSlide>
               {/* Incase we needed more than 6 products */}
-            {/* <SwiperSlide>Slide 7</SwiperSlide>
+              {/* <SwiperSlide>Slide 7</SwiperSlide>
             <SwiperSlide>Slide 8</SwiperSlide>
             <SwiperSlide>Slide 9</SwiperSlide> */}
-          </Swiper>
+            </Swiper>
           </div>
         </div>
       </div>

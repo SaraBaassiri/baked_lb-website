@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={Logo} alt="logo" width={100} height={100} />
+        <img src={Logo} alt="logo" width={90} height={90} />
       </div>
       <div className="NavRight">
         <div className="navRoutes">
