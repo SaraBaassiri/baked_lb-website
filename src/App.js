@@ -1,9 +1,10 @@
 import Home from "./Views/Home/Home";
-import About from "./Views/About/About";
+import Cart from "./Views/Cart/Cart";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
+import Contact from "./Views/ContactUs/Contact";
 
 function App() {
   React.useEffect(() => {
@@ -22,7 +23,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/my-cart" element={<Cart />} />
       </Routes>
       <Footer />
     </div>

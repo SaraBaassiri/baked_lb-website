@@ -24,7 +24,12 @@ export default function Navbar() {
         </div>
         <div className="navbarIcons">
           <FaRegUserCircle size={35} />
-          <BsCartDash size={35} />
+          <BsCartDash
+            size={35}
+            onClick={() => {
+              document.location.href = "/my-cart";
+            }}
+          />
         </div>
       </div>
     </div>
