@@ -137,6 +137,7 @@
     border-radius: 20px;
     height: 35px;
     margin-bottom: 45px;
+    margin-right: 5px;
 }
 
 button {
@@ -149,6 +150,7 @@ button {
     border-radius: 50px;
     padding: 10px 20px;
     margin-bottom: 45px;
+    margin-left: 5px;
 }
 
 .price {
