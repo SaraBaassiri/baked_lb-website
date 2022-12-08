@@ -38,7 +38,7 @@ export default function Home() {
         <div className="BakerImage">
           <div className="ImageContainer">
             <img src={bakerImage} alt="banner1" />
-            <span className="YellowBackground"></span>
+            {/* <span className="YellowBackground"></span> */}
           </div>
         </div>
         <div className="BakerInner">
