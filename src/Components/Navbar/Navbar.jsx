@@ -23,9 +23,9 @@ export default function Navbar() {
           </div>
         </div>
         <div className="navbarIcons">
-          <FaRegUserCircle size={35} />
+          <FaRegUserCircle size={25} />
           <BsCartDash
-            size={35}
+            size={25}
             onClick={() => {
               document.location.href = "/my-cart";
             }}
