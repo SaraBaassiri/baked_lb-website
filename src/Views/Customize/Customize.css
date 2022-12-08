@@ -62,11 +62,11 @@
 
 
 /* I Added a new div outside the item div and gave it these attributes */
-.CustItem {
+/* .CustItem {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 20px;
     align-items: center;
-}
+} */
