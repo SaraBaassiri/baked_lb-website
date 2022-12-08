@@ -10,6 +10,7 @@
 
 # production
 /build
+/baked
 
 # misc
 .DS_Store
