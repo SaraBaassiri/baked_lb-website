@@ -58,7 +58,7 @@ export default function Home() {
 
       <div className="innerproduct">
         <h1 className="title">Products</h1>
-          <div className="ProductsLine"></div>
+        <div className="ProductsLine"></div>
       </div>
       <div className="Products">
         <Swiper
