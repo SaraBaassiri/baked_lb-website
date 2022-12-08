@@ -1,0 +1,34 @@
+.customize {
+    margin-block: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titles h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    /* padding: 10px; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titles h4 {
+    font-size: 1.2em;
+    font-weight: 350;
+    margin-bottom: 5%;
+    padding: 10px;
+    text-align: center;
+}
+
+.CustomizeInnerImage {
+    background-color: #C2EDED;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.CustomizeInnerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

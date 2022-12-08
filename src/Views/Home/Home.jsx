@@ -309,7 +309,11 @@ export default function Home() {
             <p className="Custom-Des">
               Create your cookie according to your taste!
             </p>
-            <button className="CustomButton">Compose Now!</button>
+            <button className="CustomButton" onClick={
+              () => {
+                document.location.href = "/Customize"
+              }
+            }>Compose Now!</button>
           </div>
         </div>
       </div>
