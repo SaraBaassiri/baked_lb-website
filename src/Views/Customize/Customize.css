@@ -15,20 +15,49 @@
 .titles h4 {
     font-size: 1.2em;
     font-weight: 350;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     padding: 10px;
     text-align: center;
 }
 
 .CustomizeInnerImage {
     background-color: #C2EDED;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin: 0 auto;
 }
 
 .CustomizeInnerImage img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
+    align-self: center;
+    margin-top: 45px;
+}
+
+.CustomizeItem {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    min-height: 300px;
+    align-items: center;
+}
+
+.otherHalf {
+    background-color: #E0D2F5;
+    height: 30px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: -16px;
+    position: static;
+    /* you want me to add display: flex; here but nothing happens lol*/
+}
+
+.otherHalf p {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
 }

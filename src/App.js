@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
 import Contact from "./Views/ContactUs/Contact";
+import Customize from "./Views/Customize/Customize";
 import Shop from "./Views/Shop/Shop";
 import ShopItem from "./Views/Shop/Shop Specific/ShopItem";
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/my-cart" element={<Cart />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:id" element={<ShopItem />} />
+        <Route path="/customize" element={<Customize />} />
       </Routes>
       <Footer />
     </div>
