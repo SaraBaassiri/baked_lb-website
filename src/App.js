@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
 import Contact from "./Views/ContactUs/Contact";
+import Shop from "./Views/Shop/Shop";
+import ShopItem from "./Views/Shop/Shop Specific/ShopItem";
 
 function App() {
   React.useEffect(() => {
@@ -25,6 +27,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/my-cart" element={<Cart />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/shop/:id" element={<ShopItem />} />
       </Routes>
       <Footer />
     </div>

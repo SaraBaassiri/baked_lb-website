@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="NavRight">
         <div className="navRoutes">
           <a href="/">Home</a>
-          <a href="/">Shop</a>
+          <a href="/shop">Shop</a>
           <a href="/">Contact Us</a>
         </div>
         <div className="SearchBar">
