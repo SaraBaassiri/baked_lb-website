@@ -7,7 +7,6 @@
 .titles h1 {
     font-size: 2.5em;
     font-weight: 400;
-    /* padding: 10px; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -30,15 +29,14 @@
     align-items: center;
 }
 
-.ShopInnerImage1 {
-    background-color: #D9EA87;
+.ShopInnerImage{
     border-radius: 69px;
     width: 230px;
     height: 270px;
     margin: 0 auto;
 }
 
-.ShopInnerImage1 img {
+.ShopInnerImage img {
     width: 90%;
     height: 90%;
     object-fit: contain;
@@ -47,57 +45,7 @@
     margin-top: 15px;
 }
 
-.ShopInnerImage2 {
-    background-color: #D0FEFF;
-    border-radius: 69px;
-    width: 230px;
-    height: 270px;
-    margin: 0 auto;
-}
 
-.ShopInnerImage2 img {
-    width: 85%;
-    height: 85%;
-    object-fit: contain;
-    border-radius: 69px;
-    align-self: center;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.ShopInnerImage3 {
-    background-color: #FFE5A0;
-    border-radius: 69px;
-    width: 230px;
-    height: 270px;
-    margin: 0 auto;
-}
-
-.ShopInnerImage3 img {
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-    border-radius: 69px;
-    align-self: center;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-
-.ShopInnerImage4 {
-    background-color: #FFD6DE;
-    border-radius: 69px;
-    width: 230px;
-    height: 270px;
-    margin: 0 auto;
-} 
-
-.ShopInnerImage4 img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 69px;
-    align-self: center;
-} 
 
 .ShopItem h2 {
     font-weight: 350;

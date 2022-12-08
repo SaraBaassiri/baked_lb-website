@@ -47,12 +47,9 @@
 
 .otherHalf {
     background-color: #E0D2F5;
-    height: 30px;
+    height: 50px;
     width: 400px;
-    margin-left: 80px;
     margin-top: -16px;
-    position: static;
-    /* you want me to add display: flex; here but nothing happens lol*/
 }
 
 .otherHalf p {
@@ -60,4 +57,16 @@
     font-weight: 400;
     padding: 5px;
     text-align: center;
+}
+
+
+
+/* I Added a new div outside the item div and gave it these attributes */
+.CustItem {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    align-items: center;
 }

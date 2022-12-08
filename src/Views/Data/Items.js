@@ -1,0 +1,68 @@
+const Products = [
+    {
+        id: 0,
+        title: "Cupcake",
+        image: "/BlueCup.png",
+        color: "D9EA87",
+        Description: "A very smoochy buttered piece of cake, with a frosty topic that you would fall for.",
+        Price: 5,
+    },
+    {
+        id: 1,
+        title: "Red Velvet Cookie",
+        image: "/RedCake.png",
+        color: "D0FEFF",
+        Description: "A bright red velvet cookies filled with M&M’s,  gooey melty dark chocolate chips and rich dark chunks.",
+        Price: 2.5,
+    },
+    {
+        id: 2,
+        title: "Macrons",
+        image: "/macrons.png",
+        color: "FFE5A0",
+        Description: "A very distinct colorful juicy piece of cake, as each piece reflects the taste of a yummy fruity element.",
+        Price: 10,
+    },
+    {
+        id: 3,
+        title: "Rainbow Cake",
+        image: "/MandM.png",
+        color: "FFD6DE",
+        Description: "A very distinct colorful juicy piece of cake, as each piece reflects the taste of a yummy fruity element.",
+        Price: 10,
+    },
+    {
+        id: 4,
+        title: "Cupcake",
+        image: "/cinna.png",
+        color: "C2EDED",
+        Description: "A very smoochy buttered piece of cake, with a frosty topic that you would fall for.",
+        Price: 5,
+    },
+    {
+        id: 5,
+        title: "Red Velvet Cookie",
+        image: "/FudgeBrownie.png",
+        color: "FFD6DE",
+        Description: "A bright red velvet cookies filled with M&M’s,  gooey melty dark chocolate chips and rich dark chunks.",
+        Price: 2.5,
+    },
+    {
+        id: 6,
+        title: "M&M",
+        image: "/chocoChip.png",
+        color: "D9EA87",
+        Description: "A very distinct colorful juicy piece of cake, as each piece reflects the taste of a yummy fruity element.",
+        Price: 10,
+    },
+    {
+        id: 7,
+        title: "1 piece Macron",
+        image: "/macron.png",
+        color: "FBE6A8",
+        Description: "Choose your one tasty macron.",
+        Price: 5,
+    },
+];
+
+export { Products };
