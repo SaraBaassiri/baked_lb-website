@@ -12,9 +12,32 @@ export default function Navbar() {
       </div>
       <div className="NavRight">
         <div className="navRoutes">
-          <a href="/">Home</a>
-          <a href="/shop">Shop</a>
-          <a href="/">Contact Us</a>
+          <a
+            href="/"
+            className={
+              document.location.pathname !== "/" ? "inactive" : "underline"
+            }
+          >
+            Home
+          </a>
+          <a
+            href="/shop"
+            className={
+              document.location.pathname !== "/shop" ? "inactive" : "underline"
+            }
+          >
+            Shop
+          </a>
+          <a
+            href="/contact-us"
+            className={
+              document.location.pathname !== "/contact-us"
+                ? "inactive"
+                : "underlineLonger"
+            }
+          >
+            Contact Us
+          </a>
         </div>
         <div className="SearchBar">
           <input type="text" placeholder="Chocolate cookie" />
