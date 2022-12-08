@@ -33,7 +33,7 @@ export default function Navbar() {
             className={
               document.location.pathname !== "/contact-us"
                 ? "inactive"
-                : "underline"
+                : "underlineLonger"
             }
           >
             Contact Us

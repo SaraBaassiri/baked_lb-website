@@ -75,6 +75,13 @@
 
 .underline {
     color: black;
+    font-size: 19px;
+    border-bottom: 2px solid #FBE6A8;
     width: 30px;
+}
+
+.underlineLonger {
+    color: black;
+    font-size: 19px;
     border-bottom: 2px solid #FBE6A8;
 }
