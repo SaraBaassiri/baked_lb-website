@@ -10,7 +10,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 //Svg
-import banner1 from "../../Assets/banner1.svg";
 import bakerImage from "../../Assets/meetTheBaker.svg";
 import Pumpkin from "../../Assets/Pumpkin.svg";
 import ChrisBrownies from "../../Assets/ChrisBrownies.svg";
@@ -25,15 +24,15 @@ export default function Home() {
   return (
     <div>
       <div className="Hero">
-        <div className="HeroImage">
-          <img src={banner1} alt="banner1" />
-        </div>
-        <div className="HeroInner">
-          <div className="HeroText">
-            <h1 className="Hero-Title">Hey, Sugar!</h1>
-            <h3 className="Hero-SubTitle">Give Our Cookies a Try!</h3>
-            <button className="HeroButton">TRY NOW</button>
+        <div className="InnerHeroDiv">
+          <div className="HeroInner">
+            <div className="HeroText">
+              <h1 className="Hero-Title">Hey, Sugar!</h1>
+              <h3 className="Hero-SubTitle">Give Our Cookies a Try!</h3>
+              <button className="HeroButton">TRY NOW</button>
+            </div>
           </div>
+          <img src="/pngwing.png" alt="banner1" />
         </div>
       </div>
 
