@@ -106,3 +106,19 @@ button {
     font-size: 1em;
     margin-left: 10px;
 }
+
+
+.wheelContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 780px;
+    background-color: #E0D2F5;
+    border-radius: 180px;
+    margin-bottom: 30px;
+}
+
+.closeButtonShop {
+ 
+}

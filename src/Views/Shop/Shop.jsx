@@ -8,12 +8,27 @@ import { useSelector } from "react-redux";
 
 export default function Shop() {
   const items = useSelector((state) => state.cart.Items);
+  const [visible, setVisible] = React.useState(true);
   return (
     <div className="shop">
       <div className="titles">
         <h1>Your Favorite Shop</h1>
         <h4>Delve into our best and tastiest Baked products</h4>
       </div>
+      {visible && (
+        <div className="wheelContainer">
+          <p
+            onClick={() => {
+              setVisible(false);
+            }}
+            className="closeButtonShop"
+          >
+            X
+          </p>
+          <div className="wheel"></div>
+        </div>
+      )}
+
       <Grid
         container
         spacing={{ xs: 4, md: 3 }}
