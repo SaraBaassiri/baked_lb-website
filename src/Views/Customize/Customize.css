@@ -47,7 +47,7 @@
 
 .otherHalf {
     background-color: #E0D2F5;
-    height: 50px;
+    height: 30px;
     width: 400px;
     margin-top: -16px;
 }
@@ -55,18 +55,105 @@
 .otherHalf p {
     font-size: 1em;
     font-weight: 400;
-    padding: 5px;
+    /* padding: 5px; */
     text-align: center;
+    margin-top: 5px;
 }
 
-
-
-/* I Added a new div outside the item div and gave it these attributes */
-/* .CustItem {
+.CustomizeOptions {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    /* justify-content: space-between; */
     padding: 0 20px;
-    align-items: center;
-} */
+    /* min-height: 300px; */
+    justify-content: center;
+}
+
+.crust h5 {
+    font-size: 1em;
+    font-weight: 450;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7F7F7F;
+}
+
+.crustOptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    /* min-height: 300px; */
+    justify-content: center;
+}
+
+.crustOptions button {
+    background-color: #E0D2F5;
+    border: black 1px solid;
+    font-weight: 525;
+    border-radius: 15px;
+}
+
+.flavor h5 {
+    font-size: 1em;
+    font-weight: 450;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7F7F7F;
+}
+
+.flavorOptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    /* min-height: 300px; */
+    justify-content: center;
+}
+
+.flavorOptions button {
+    background-color: #E0D2F5;
+    border: black 1px solid;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.topping h5 {
+    font-size: 1em;
+    font-weight: 450;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7F7F7F;
+}
+
+.toppingOptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    /* min-height: 300px; */
+    justify-content: center;
+}
+
+.toppingOptions button {
+    background-color: #E0D2F5;
+    border: black 1px solid;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.secondHalf button {
+    background-color: #FFF9DE;
+    border: black 1px solid;
+    font-weight: 500;
+    border-radius: 15px;
+    text-transform: none;
+    font-size: 0.8em;
+    justify-self: center;
+}
