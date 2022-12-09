@@ -5,7 +5,7 @@ import {
   removeFromCart,
   subtractQuantity,
   addQuantity,
-} from "../../Redux/reducers/CartSlice";
+} from "../../Redux/reducers/cartSlice";
 
 export default function Item({ item }) {
   const dispatch = useDispatch();

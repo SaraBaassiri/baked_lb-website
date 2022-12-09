@@ -3,8 +3,10 @@ import "./Navbar.css";
 import Logo from "../../Assets/Logo.svg";
 import { BsSearch, BsCartDash } from "react-icons/bs";
 import { FaRegUserCircle } from "react-icons/fa";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="navbar">
       <div className="logo">
@@ -12,24 +14,24 @@ export default function Navbar() {
       </div>
       <div className="NavRight">
         <div className="navRoutes">
-          <a
-            href="/"
+          <Link
+            to="/"
             className={
               document.location.pathname !== "/" ? "inactive" : "underline"
             }
           >
             Home
-          </a>
-          <a
-            href="/shop"
+          </Link>
+          <Link
+            to="/shop"
             className={
               document.location.pathname !== "/shop" ? "inactive" : "underline"
             }
           >
             Shop
-          </a>
-          <a
-            href="/contact-us"
+          </Link>
+          <Link
+            to="/contact-us"
             className={
               document.location.pathname !== "/contact-us"
                 ? "inactive"
@@ -37,7 +39,7 @@ export default function Navbar() {
             }
           >
             Contact Us
-          </a>
+          </Link>
         </div>
         <div className="SearchBar">
           <input type="text" placeholder="Chocolate cookie" />
@@ -50,7 +52,7 @@ export default function Navbar() {
           <BsCartDash
             size={25}
             onClick={() => {
-              document.location.href = "/my-cart";
+              navigate("/my-cart");
             }}
           />
         </div>

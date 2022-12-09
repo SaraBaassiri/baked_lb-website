@@ -4,11 +4,7 @@ import "./Cart.css";
 import { useSelector } from "react-redux";
 
 export default function Cart() {
-  const items = useSelector((state) => state.cart.cartItems);
-
-  React.useEffect(() => {
-    console.log(items);
-  }, [items]);
+  const items = useSelector((state) => state.cart.Items);
 
   return (
     <div className="Conatainer">

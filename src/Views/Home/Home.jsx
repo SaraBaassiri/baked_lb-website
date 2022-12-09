@@ -18,7 +18,10 @@ import IndependanceDay from "../../Assets/IndependanceDay.svg";
 
 import { Grid } from "@mui/material";
 
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="Hero">
@@ -309,11 +312,14 @@ export default function Home() {
             <p className="Custom-Des">
               Create your cookie according to your taste!
             </p>
-            <button className="CustomButton" onClick={
-              () => {
-                document.location.href = "/Customize"
-              }
-            }>Compose Now!</button>
+            <button
+              className="CustomButton"
+              onClick={() => {
+                navigate("/customize");
+              }}
+            >
+              Compose Now!
+            </button>
           </div>
         </div>
       </div>
