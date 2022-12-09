@@ -7,6 +7,13 @@ export const cartSlice = createSlice({
     },
     reducers: {
         addToCart: (state, action) => {
+
+            if (state.Items.find((item) => item.id === action.payload.id)) {
+                state.Items = state.Items.map((item) =>
+                    item.id === action.payload.id ? { ...item, quantity: item.quantity + 1 } : item
+                );
+                return;
+            }
             const data = Object.assign({
                 quantity: 1,
             }, action.payload);
