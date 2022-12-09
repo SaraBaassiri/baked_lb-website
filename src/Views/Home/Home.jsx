@@ -53,7 +53,7 @@ export default function Home() {
               sweets, but I am passionate about baking, and I love seeing people
               go crazy over what I dough.
             </p>
-            <button className="BakerButton">TRY NOW</button>
+            <button className="BakerButton">Instagram</button>
           </div>
         </div>
       </div>
@@ -366,7 +366,7 @@ export default function Home() {
         </Grid>
         <div className="BottomDiv">
           <h2>Taking your celebration to a whole new level!</h2>
-          <button className="HeroButton">View All</button>
+          <button className="lastButton">View All</button>
         </div>
       </div>
     </div>
