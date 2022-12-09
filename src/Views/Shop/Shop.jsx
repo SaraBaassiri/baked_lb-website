@@ -4,7 +4,10 @@ import { Grid } from "@mui/material";
 import { Products } from "../Data/Items";
 import Item from "../../Components/Item/Item";
 
+import { useSelector } from "react-redux";
+
 export default function Shop() {
+  const items = useSelector((state) => state.cart.Items);
   return (
     <div className="shop">
       <div className="titles">
@@ -19,7 +22,15 @@ export default function Shop() {
         {Products.map((item, index) => {
           return (
             <Grid item xs={2} sm={4} md={4} key={index}>
-              <Item item={item} />
+              {items.find((i) => i.id === item.id) ? (
+                <Item
+                  item={item}
+                  isAdded={true}
+                  amount={items.find((i) => i.id === item.id).quantity}
+                />
+              ) : (
+                <Item item={item} isAdded={false} amount={0} />
+              )}
             </Grid>
           );
         })}

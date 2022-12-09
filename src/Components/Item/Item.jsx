@@ -7,11 +7,11 @@ import {
   addQuantity,
 } from "../../Redux/reducers/cartSlice";
 
-export default function Item({ item }) {
+export default function Item({ item, isAdded, amount }) {
   const dispatch = useDispatch();
 
-  const [added, SetAdded] = React.useState(false);
-  const [itemAmount, setItemAmount] = React.useState(0);
+  const [added, SetAdded] = React.useState(isAdded);
+  const [itemAmount, setItemAmount] = React.useState(amount);
 
   return (
     <div className="ShopItem">
