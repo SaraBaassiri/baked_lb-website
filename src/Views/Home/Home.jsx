@@ -10,7 +10,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 //Svg
-import banner1 from "../../Assets/banner1.svg";
 import bakerImage from "../../Assets/meetTheBaker.svg";
 import Pumpkin from "../../Assets/Pumpkin.svg";
 import ChrisBrownies from "../../Assets/ChrisBrownies.svg";
@@ -18,19 +17,22 @@ import IndependanceDay from "../../Assets/IndependanceDay.svg";
 
 import { Grid } from "@mui/material";
 
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="Hero">
-        <div className="HeroImage">
-          <img src={banner1} alt="banner1" />
-        </div>
-        <div className="HeroInner">
-          <div className="HeroText">
-            <h1 className="Hero-Title">Hey, Sugar!</h1>
-            <h3 className="Hero-SubTitle">Give Our Cookies a Try!</h3>
-            <button className="HeroButton">TRY NOW</button>
+        <div className="InnerHeroDiv">
+          <div className="HeroInner">
+            <div className="HeroText">
+              <h1 className="Hero-Title">Hey, Sugar!</h1>
+              <h3 className="Hero-SubTitle">Give Our Cookies a Try!</h3>
+              <button className="HeroButton">TRY NOW</button>
+            </div>
           </div>
+          <img src="/pngwing.png" alt="banner1" />
         </div>
       </div>
 
@@ -309,11 +311,14 @@ export default function Home() {
             <p className="Custom-Des">
               Create your cookie according to your taste!
             </p>
-            <button className="CustomButton" onClick={
-              () => {
-                document.location.href = "/Customize"
-              }
-            }>Compose Now!</button>
+            <button
+              className="CustomButton"
+              onClick={() => {
+                navigate("/customize");
+              }}
+            >
+              Compose Now!
+            </button>
           </div>
         </div>
       </div>
