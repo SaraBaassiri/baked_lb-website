@@ -1,6 +1,6 @@
 import Home from "./Views/Home/Home";
 import Cart from "./Views/Cart/Cart";
-import Cart2 from "./Views/Cart/Cart2";
+import Cart2 from "./Views/Cart/cart2/Cart2";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
