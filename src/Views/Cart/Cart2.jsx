@@ -9,21 +9,21 @@ export default function Cart() {
   const [total, setTotal] = useState(0);
   const calculateTotal = () => {
     let totalPrice = 0;
-    items.forEach(item => {
+    items.forEach((item) => {
       totalPrice += item.Price * item.quantity;
     });
     setTotal(totalPrice);
-  }
+  };
 
   useEffect(() => {
     calculateTotal();
-  }, [items]);
+  });
 
   return (
     <div className="Conatainer">
       <h1 className="Title ml-5">Shopping Cart</h1>
       <div className="blackLine ml-5"></div>
-      <div className="blueDiv" style={{ overflowy: "scrol" }} >
+      <div className="blueDiv" style={{ overflowy: "scrol" }}>
         <h2 className="inTitle">Your order</h2>
         <div className="blackLine2"></div>
         {items.map((item) => {
@@ -55,7 +55,9 @@ export default function Cart() {
         </div>
       </div>
       <div className="btnContainer">
-        <button className="proceedbtn" onClick={calculateTotal}>Proceed To Payment</button>
+        <button className="proceedbtn" onClick={calculateTotal}>
+          Proceed To Payment
+        </button>
       </div>
     </div>
   );
