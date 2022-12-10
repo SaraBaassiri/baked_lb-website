@@ -5,6 +5,8 @@ import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
 import { Link, useHref } from "react-router-dom";
 
+import bg from "../../Assets/whitebg.svg"
+
 export default function Cart() {
   const items = useSelector((state) => state.cart.Items);
   const [total, setTotal] = useState(0);
@@ -30,7 +32,7 @@ export default function Cart() {
         {items.map((item) => {
           return (
             <div className="orderContainer">
-              <img src={item.image} alt="cookie1" />
+              <img src={item.image} alt="cookie1"  className="itemimg"  />
               <div className="pl">
                 <h1 className="orderTitle">{item.title}</h1>
                 <h3>

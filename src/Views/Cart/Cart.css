@@ -85,6 +85,14 @@ h3{
     padding-right: 250px;
 }
 
+.itemimg{
+    background-color: white;
+    border-radius: 69px;
+    width: 184.82px;
+    height: 175.2px;
+    padding: 10px;
+}
+
 .totalAndStuff{
     display: flex;
     flex-direction: row;
