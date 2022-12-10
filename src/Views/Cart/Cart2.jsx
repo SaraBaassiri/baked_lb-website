@@ -3,7 +3,6 @@ import "./Cart.css";
 
 import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
-import { Link, useHref } from "react-router-dom";
 
 export default function Cart() {
   const items = useSelector((state) => state.cart.Items);
@@ -56,25 +55,8 @@ export default function Cart() {
         </div>
       </div>
       <div className="btnContainer">
-        {  total > 0 ?
-        <button className="proceedbtn" onClick={
-          () => {
-            if (total > 0) {
-              window.location.href = "/my-cart2";
-            }
-          }
-        }>Proceed To Payment</button>
-        :
-        <button className="proceedbtn" onClick={
-          () => {
-            if (total == 0) {
-              window.location.href = "/Shop";
-            }
-          }
-        }>Buy</button>
-      }
+        <button className="proceedbtn" onClick={calculateTotal}>Proceed To Payment</button>
       </div>
-
     </div>
   );
 }
