@@ -132,7 +132,7 @@ h3{
 }
 
 .proceedbtn:hover {
-    background: linear-gradient(to right, #c27dfc 0%, #6e5dcf 80%, #243b67 100%);
+    background: linear-gradient(to right, #E0D2F5 0%, #aea1f7 80%, #c497e2 100%);
     box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     border-radius: 30px;
     transition: all 0.3s ease;

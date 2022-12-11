@@ -21,7 +21,7 @@
     width: 124.39px;
     height: 4px;
     background-color: #000000;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 .ml-5{
@@ -43,7 +43,7 @@ h3{
     gap: 20px;
     width: 50%;
 }
-.BigInput{
+.BigInputCard{
    width: 848px;
    height: 92px;
     border-radius: 46px;
@@ -55,6 +55,112 @@ h3{
     align-items: center;
     padding-left: 20px;
 }
+
+.masterLogoContainer{
+    width: 10%;
+    height: 100%;
+    padding-top: 30px;  
+}
+
+.inputCardNumber{
+    width: 700px;
+    height: 58px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #CCCACA;
+
+}
+.inputCardNumber:focus{
+    outline: none;
+}
+
+.masterCardLogoCircleOne{
+    width: 28px;
+    height: 28px;
+    border-radius: 23px;
+    background-color: #F56E6E;
+    margin-left: 8px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 50px;
+}
+.masterCardLogoCircleTwo{
+    width: 28px;
+    height: 28px;
+    border-radius: 23px;
+    background-color: #F5A35D;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    align-items: center;
+}
+
+
+
+.inputContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.inputDate{
+    width: 130.5px;
+    height: 58px;
+    border-radius: 29px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13%;
+}
+
+.InputDate {
+    width: 150px;
+    height: 58px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 29px;
+    border: 1px solid black;
+}
+
+.inputText{
+    font-size: 22px;
+}
+
+
+.inputCVV{
+    width: 335px;
+    height: 58px;
+    border-radius: 29px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.inputCVV:focus{
+    outline: none;
+    border: 3px solid rgb(63, 53, 53);
+}
+
 .blackcircle{
     width: 22px;
     height: 22px;
@@ -220,31 +326,38 @@ h3{
 }
 
 .paymentMethod{
+    width: 848px;
+    height: 92px;
+    border-radius: 46px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.paymentMethod:hover{
+    background-color: #FFF9DE;
+}
+
+.thec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1410px;
+    left: 120px
+}
+
+.payNow{
     width: 336.03px;
     height: 58px;
     border-radius: 29px;
     text-align: center;
     font-size: 21px;
-    font-weight: 350;
-    padding-left: 40px;
-}
-
-.cbtn{
-    border-radius: 29px;
-    cursor: pointer;
-
-
-}
-
-.cbtn:hover{
-    border-radius: 29px;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
-
-}
-
-
-.paybtn{
+    font-weight: bold;
     margin-left: 50px;
+
 }
 
 

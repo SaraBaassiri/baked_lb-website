@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336.031" height="58" viewBox="0 0 336.031 58">
+  <rect id="Rectangle_111" data-name="Rectangle 111" width="336.031" height="58" rx="29" fill="#e0d2f5"/>
+  <text id="PAYMENT_METHOD" data-name="PAYMENT METHOD" transform="translate(94 35.726)" font-size="21" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">PAYMENT METHOD</tspan></text>
+  <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(33 16.726)" stroke="#707070" stroke-width="1">
+    <circle cx="11" cy="11" r="11" stroke="none"/>
+    <circle cx="11" cy="11" r="10.5" fill="none"/>
+  </g>
+  <text id="C" transform="translate(37 33.726)" fill="#fff" stroke="#fff" stroke-width="1" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">C</tspan></text>
+</svg>

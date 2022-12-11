@@ -1,6 +1,9 @@
 import Home from "./Views/Home/Home";
 import Cart from "./Views/Cart/Cart";
 import Cart2 from "./Views/Cart/cart2/Cart2";
+
+import CheckOut from "./Views/CheckOut/checkout";
+
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
@@ -31,6 +34,7 @@ function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/my-cart" element={<Cart />} />
         <Route path="/my-cart2" element={<Cart2 />} />
+        <Route path="/checkout" element={<CheckOut />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:id" element={<ShopItem />} />
         <Route path="/customize" element={<Customize />} />

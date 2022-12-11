@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="6" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-915 -691)">
+      <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(915 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(922 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(929 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(0 7)" clip-path="url(#clip-path)">
+    <g transform="translate(-915 -691)">
+      <g id="Ellipse_23-2" data-name="Ellipse 23" transform="translate(915 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_24-2" data-name="Ellipse 24" transform="translate(922 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_25-2" data-name="Ellipse 25" transform="translate(929 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(0 14)" clip-path="url(#clip-path)">
+    <g transform="translate(-915 -691)">
+      <g id="Ellipse_23-3" data-name="Ellipse 23" transform="translate(915 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_24-3" data-name="Ellipse 24" transform="translate(922 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+      <g id="Ellipse_25-3" data-name="Ellipse 25" transform="translate(929 691)" fill="#c2eded" stroke="rgba(112,112,112,0)" stroke-width="1">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

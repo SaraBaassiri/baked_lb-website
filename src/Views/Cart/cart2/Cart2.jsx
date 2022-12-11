@@ -5,7 +5,11 @@ import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
 import { Link, useHref, useNavigate } from "react-router-dom";
 
+
 import Radio from "../../../Components/RadioBtn/radiobtn"
+
+import cbtn from "../../../Assets/theCbutton.svg"
+import paybtn from "../../../Assets/pay.svg"
 
 
 export default function Cart() {
@@ -150,23 +154,37 @@ export default function Cart() {
         </div>
         <div className="paymentBtns" >
 
-          <button className="paymentMethod" >
-            <div className="blackcircle thec" style={{
-              marginTop: "10px",
-            }}  >
+          <img src={cbtn} alt="cbtn" className="cbtn"  />
+
+          {/* <button className="paymentMethod" >
+            <div className="blackcircle">
               <h4 
-              style={{
-                marginLeft: "1px"
-              }}
+             style={{
+                color: "white",
+                fontSize: "20px",
+                fontWeight: "bold",
+                marginTop: "0px"
+             }}
               >
                 c
               </h4>
             </div>
             PAYMENT METHOD
-          </button>
-          <button className="payNow" >
+          </button> */}
+          {/* <button className="payNow" 
+          onClick ={
+            () => {
+              navigate("/checkout")
+            }
+          }
+          >
           PAY Now
-          </button>
+          </button> */}
+                    <img src={paybtn} alt="cbtn" className="cbtn paybtn"  onClick ={
+            () => {
+              navigate("/checkout")
+            }
+          }/>
 
         </div>
       </div>
