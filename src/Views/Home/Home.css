@@ -49,7 +49,7 @@
   margin-bottom: 0;
   margin-top: 0;
   z-index: 1;
-  width:max-content;
+  width: max-content;
   padding: 10px;
   margin-left: 10px;
 }
@@ -79,8 +79,6 @@
   }
 }
 
-
-
 .Hero-SubTitle {
   z-index: 1;
   font-size: 25px;
@@ -90,7 +88,7 @@
 }
 
 .HeroButton {
-  background-color: #FBE6A8;
+  background-color: #fbe6a8;
   color: black;
   font-size: 16px;
   font-weight: bold;
@@ -108,7 +106,7 @@
 .MeetTheBaker {
   height: 100vh;
   width: 100%;
-  background-color: #C2EDED;
+  background-color: #c2eded;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -166,7 +164,7 @@
 
 .BakerButton {
   margin-top: 60px;
-  background-color: #E0D2F5;
+  background-color: #e0d2f5;
   color: black;
   font-size: 16px;
   font-weight: 300;
@@ -181,7 +179,7 @@
 }
 
 .Baker-Title {
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-size: 50px;
   text-align: left;
   display: flex;
@@ -223,12 +221,13 @@
 }
 
 .Products {
-  box-sizing: border-box;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  /* box-sizing: border-box; */
+  /* display: block; */
+  /* align-items: center; */
+  /* justify-content: center; */
   height: 75vh;
-  width: 73%;
+  /* width: 73%; */
+  /* width: 100%; */
   margin: 0 auto;
   padding-top: 30px;
   /* margin-left: 64px;
@@ -577,7 +576,6 @@
   text-align: center;
   margin-bottom: 50px;
 }
-
 
 .lastButton {
   background-color: #e0d2f5;

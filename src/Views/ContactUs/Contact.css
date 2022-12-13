@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/keira-serif-free");
+@import url("https://fonts.cdnfonts.com/css/love-letters");
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.grid-child {
+}
+
+.leftside {
+  padding: 20px;
+}
+
+.rightside {
+  padding: 20px;
+}
+
+.title {
+  text-align: left;
+  font: 60px;
+  font-family: "Keira Serif Free", sans-serif;
+  font-weight: normal;
+}
+.cout {
+  font-family: "LoveLetters", sans-serif;
+}
+
+.Line {
+  width: 74.5px;
+  margin-left: 23px;
+  margin-bottom: 40px;
+  height: 4px;
+  background-color: black;
+}
+
+.map {
+  border: 0;
+  height: 450px;
+}

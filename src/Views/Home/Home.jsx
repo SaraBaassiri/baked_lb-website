@@ -2,12 +2,12 @@ import React from "react";
 import "./Home.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination} from "swiper";
 import "swiper/css/bundle";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
@@ -64,8 +64,9 @@ export default function Home() {
       </div>
       <div className="Products">
         <Swiper
-          slidesPerView={3}
-          spaceBetween={0}
+          slidesPerView={5}
+          spaceBetween={30}
+          centeredSlides={true}
           slidesPerGroup={1}
           loop={true}
           loopFillGroupWithBlank={true}
@@ -73,8 +74,8 @@ export default function Home() {
             clickable: true,
             bulletClass: "my-bullet ",
           }}
-          navigation={true}
-          modules={[Pagination, Navigation]}
+          navigation={false}
+          modules={[Pagination]}
           className="slide-content"
         >
           <div>
