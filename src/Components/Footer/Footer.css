@@ -26,8 +26,9 @@
 
 
 .Logo h3 {
-    font-size: 16px;
+    font-size: 15px;
     color: #575757;
+    font-weight: normal;
 }
 
 /* Info */
@@ -37,10 +38,24 @@
     color: #575757;
 }
 
+.BakedInfo h2 {
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.BakedInfo p {
+    font-weight: lighter;
+}
+
 /* Socials */
 
 .Socials {
     color: #575757;
+}
+
+.Socials h2 {
+    font-size: 15px;
+    font-weight: 450;
 }
 
 .Socials div {
@@ -57,6 +72,11 @@
     color: #575757;
 }
 
+.Links h2 {
+    font-size: 15px;
+    font-weight: 450;
+}
+
 .Links div {
     display: flex;
     flex-direction: column;
@@ -65,6 +85,7 @@
 .Links div a {
     text-decoration: none;
     color: #575757;
+    font-weight: lighter;
 }
 
 /* Get Updated Section */
@@ -80,6 +101,15 @@
     color: #575757;
     height: 30px;
     padding: 0 10px;
+}
+
+.GetUpdated h2 {
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.GetUpdated p {
+    font-weight: lighter;
 }
 
 .Footer h2 {
