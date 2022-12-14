@@ -4,9 +4,14 @@ import Logo from "../../Assets/Logo.svg";
 import { BsSearch, BsCartDash } from "react-icons/bs";
 import { FaRegUserCircle } from "react-icons/fa";
 import { useNavigate, Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Navbar() {
   const navigate = useNavigate();
+
+ 
+
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -48,7 +53,9 @@ export default function Navbar() {
           </div>
         </div>
         <div className="navbarIcons">
-          <FaRegUserCircle size={25} />
+          <FaRegUserCircle size={25} 
+        
+          />
           <BsCartDash
             size={25}
             onClick={() => {

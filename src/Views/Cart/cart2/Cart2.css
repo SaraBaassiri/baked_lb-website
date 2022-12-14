@@ -19,6 +19,7 @@
 
 .blackLine {
     width: 124.39px;
+    margin-top: 10px;
     height: 4px;
     background-color: #000000;
     margin-bottom: 4%;
@@ -43,6 +44,7 @@ h3{
     gap: 20px;
     width: 50%;
 }
+
 .BigInput{
    width: 848px;
    height: 92px;
@@ -186,23 +188,19 @@ h3{
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
     gap: 20px;
-    align-items: center;
+    background-color: #C2EDED;
 }
 
 .radiobtns p {
     font-size: 22px;
-   
 }
-
-
 
 .saveCancelContainer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-start;
     gap: 55px;
 }
 
@@ -220,7 +218,6 @@ h3{
     font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 30px;
 }
 
 .paymentMethod{
@@ -236,8 +233,6 @@ h3{
 .cbtn{
     border-radius: 29px;
     cursor: pointer;
-
-
 }
 
 .cbtn:hover{
@@ -348,8 +343,17 @@ h3{
     padding-bottom: 20px;
 }
 
+.Stuff {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 2px solid black;
+    margin: 0 auto;
+}
+
 .proceedbtn:hover {
-    background: linear-gradient(to right, #E0D2F5 0%, #aea1f7 80%, #c497e2 100%);
     box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     border-radius: 30px;
     transition: all 0.3s ease;

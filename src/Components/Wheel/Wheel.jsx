@@ -4,7 +4,26 @@ import "./Wheel.css";
 
 class SpinningWheel extends React.Component {
   state = {
-    list: ["$500", "$9,999", "$1", "$60", "$1,000", "$4.44", "$0", "$333"],
+    color: [
+      "#FFD6DE",
+      "#FBE6A8",
+      "#C2EDED",
+      "#D9EA87",
+      "#C2EDED",
+      "#FFD6DE",
+      "#FBE6A8",
+      "#D9EA87",
+    ],
+    list: [
+      "1 free product ",
+      "10% discount",
+      "Free delivery ",
+      "Spin Again",
+      "$1,000",
+      "$4.44",
+      "$0",
+      "$333",
+    ],
     radius: 75, // PIXELS
     rotate: 0, // DEGREES
     easeOut: 0, // SECONDS
@@ -37,7 +56,7 @@ class SpinningWheel extends React.Component {
     let angle = 0;
     for (let i = 0; i < numOptions; i++) {
       let text = this.state.list[i];
-      this.renderSector(i + 1, text, angle, arcSize, this.getColor());
+      this.renderSector(i + 1, text, angle, arcSize, this.state.color[i]);
       angle += arcSize;
     }
   }
@@ -80,12 +99,12 @@ class SpinningWheel extends React.Component {
     let startAngle = start;
     let endAngle = start + arc;
     let angle = index * arc;
-    let baseSize = radius * 3.33;
-    let textRadius = baseSize - 150;
+    let baseSize = radius * 3.5;
+    let textRadius = baseSize - 120;
 
     ctx.beginPath();
     ctx.arc(x, y, radius, startAngle, endAngle, false);
-    ctx.lineWidth = radius * 2;
+    ctx.lineWidth = radius * 3;
     ctx.strokeStyle = color;
 
     ctx.font = "17px Arial";
@@ -100,15 +119,6 @@ class SpinningWheel extends React.Component {
     ctx.rotate(angle - arc / 2 + Math.PI / 2);
     ctx.fillText(text, -ctx.measureText(text).width / 2, 0);
     ctx.restore();
-  }
-
-  getColor() {
-    // randomly generate rbg values for wheel sectors
-    let r = Math.floor(Math.random() * 255);
-    let g = Math.floor(Math.random() * 255);
-    let b = Math.floor(Math.random() * 255);
-    let a = Math.random() * (1 - 0.7) + 0.7;
-    return `rgba(${r},${g},${b},${a})`;
   }
 
   spin = () => {
@@ -152,17 +162,17 @@ class SpinningWheel extends React.Component {
       result: result,
     });
 
-    let canvas = document.getElementById("wheel");
-    let ctx = canvas.getContext("2d");
-    //Create a circle and add the result text
-    ctx.beginPath();
-    ctx.arc(canvas.width / 2, canvas.height / 2, 50, 0, 2 * Math.PI);
-    ctx.fillStyle = "white";
-    ctx.fill();
-    ctx.font = "20px Arial";
-    ctx.fillStyle = "black";
-    ctx.textAlign = "center";
-    ctx.fillText(list[result], canvas.width / 2, canvas.height / 2 + 10);
+    // let canvas = document.getElementById("wheel");
+    // let ctx = canvas.getContext("2d");
+    // //Create a circle and add the result text
+    // ctx.beginPath();
+    // ctx.arc(canvas.width / 2, canvas.height / 2, 50, 0, 2 * Math.PI);
+    // ctx.fillStyle = "white";
+    // ctx.fill();
+    // ctx.font = "20px Arial";
+    // ctx.fillStyle = "black";
+    // ctx.textAlign = "center";
+    // ctx.fillText(list[result], canvas.width / 2, canvas.height / 2 + 10);
   };
 
   reset = () => {
@@ -188,8 +198,8 @@ class SpinningWheel extends React.Component {
         <span id="selector">&#9660;</span>
         <canvas
           id="wheel"
-          width="500"
-          height="500"
+          width="600"
+          height="600"
           style={{
             WebkitTransform: `rotate(${this.state.rotate}deg)`,
             WebkitTransition: `-webkit-transform ${this.state.easeOut}s ease-out`,
