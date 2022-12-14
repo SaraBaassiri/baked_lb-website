@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/keira-serif-free");
 @import url("https://fonts.cdnfonts.com/css/love-letters");
+@import url("https://fonts.cdnfonts.com/css/gotham");
 
 .grid-container {
   display: grid;
@@ -11,11 +12,11 @@
 }
 
 .leftside {
-  padding: 20px;
+  margin: 20px;
 }
 
 .rightside {
-  padding: 20px;
+  margin: 20px;
 }
 
 .title {
@@ -27,11 +28,32 @@
 .cout {
   font-family: "LoveLetters", sans-serif;
 }
+.messagebox {
+  width: 90%;
+  height: 120px;
+  font-family: "Gotham", sans-serif;
+}
+.inputbox {
+  border-width: 2px;
+  font-family: "Gotham", sans-serif;
+  margin: 5px;
+  text-indent: 20px;
+}
+.namebox {
+  width: 43.2%;
+  height: 40px;
+}
+
+.emailbox {
+  width: 90%;
+  height: 40px;
+}
 
 .Line {
   width: 74.5px;
   margin-left: 23px;
-  margin-bottom: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   height: 4px;
   background-color: black;
 }
