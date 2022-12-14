@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { Link, useHref, useNavigate } from "react-router-dom";
 
 import tick from "../../Assets/bluetick.svg";
+import tickafter from "../../Assets/tickafter.svg";
 import cube from "../../Assets/rcube.svg";
 
 import Yummy from "../../Components/popups/yummy"
@@ -46,7 +47,7 @@ const handleChange = (e) => {
     if (count < 3) {
       newCreditCardNumber += creditCardNumber[i];
       if (i !== 0 && (i + 1) % 4 === 0) {
-        newCreditCardNumber += '  -  ';
+        newCreditCardNumber += '   -   ';
         count++;
       }
     } else {
@@ -88,9 +89,11 @@ const handleChange = (e) => {
       maxLength="31"
     />
 
-            <img src={tick} alt="tick" style={{ marginTop: "5%" }} />
+            
 
         </div>
+
+        <img src={ showYummy ? tickafter : tick } alt="tick" style={{ marginRight: "20px" }} />
 
         </div>
         
@@ -101,7 +104,7 @@ const handleChange = (e) => {
             <h2 className="inputTitle" >CVV Number</h2>
             <p className="inputText" >Enter the 3-digit number on the back of the card</p>
             </div>
-            <div className="CVVInput" >
+        <div className="CVVInput" >
             <input
             className="inputCVV"
             type="text"
@@ -114,15 +117,11 @@ const handleChange = (e) => {
             maxLength="3"
           />
                       <img src={cube} alt="tick" style={{ 
-                        marginTop: "1%",
-                        marginRight: "5%",
-                        marginLeft: "-2%",
-                        position: "absolute",
-                        zIndex: "1",
+                        
                        }} />
 
           
-          </div>
+        </div>
 
           </div>
         
@@ -177,18 +176,16 @@ const handleChange = (e) => {
             className="inputCVV"
             type="password"
                       />
+                      
                       <img src={cube} alt="tick" style={{ 
-                        marginTop: "1%",
-                        marginRight: "5%",
-                        marginLeft: "-2%",
-                        position: "absolute",
-                        zIndex: "1",
-                       }} />
-
+                       
+                      }} />
           
           </div>
+          
 
           </div>
+          
         
         </div>
 

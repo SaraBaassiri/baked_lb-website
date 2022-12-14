@@ -20,8 +20,8 @@ export default function Footer() {
       <div className="Socials">
         <h2>Follow Our Socials</h2>
         <div>
-          <BsFacebook size={35} />
-          <BsInstagram size={35} />
+          <BsFacebook size={30} />
+          <BsInstagram size={30} />
         </div>
       </div>
       <div className="Links">

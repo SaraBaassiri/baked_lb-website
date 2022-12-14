@@ -38,6 +38,7 @@
   font-family: "Gotham", sans-serif;
   margin: 5px;
   text-indent: 20px;
+  border-radius: 15px;
 }
 .namebox {
   width: 43.2%;
