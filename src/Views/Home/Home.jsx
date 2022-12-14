@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
+import "swiper/css/bundle";
+import "swiper/css/free-mode";
+// Import Swiper styles
+import "swiper/css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination} from "swiper";
-import "swiper/css/bundle";
-// Import Swiper styles
-import "swiper/css";
+import { FreeMode} from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
@@ -59,15 +61,16 @@ export default function Home() {
       </div>
 
       <div className="innerproduct">
-        <h1 className="title">Products</h1>
+        <h1 className="Productstitle">Products</h1>
         <div className="ProductsLine"></div>
       </div>
       <div className="Products">
         <Swiper
-          slidesPerView={5}
-          spaceBetween={30}
+          slidesPerView={4}
+          spaceBetween={20}
           centeredSlides={true}
           slidesPerGroup={1}
+          freeMode={true}
           loop={true}
           loopFillGroupWithBlank={true}
           pagination={{
@@ -75,7 +78,7 @@ export default function Home() {
             bulletClass: "my-bullet ",
           }}
           navigation={false}
-          modules={[Pagination]}
+          modules={[FreeMode, Pagination]}
           className="slide-content"
         >
           <div>

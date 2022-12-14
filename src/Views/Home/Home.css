@@ -206,6 +206,28 @@
 }
 
 /* Products Section */
+.Productstitle {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 89%;
+  padding-top: 75px;
+  padding-right: 20px;
+  font: 60px;
+  margin: 0 auto;
+  font-family: "Keira Serif Free", sans-serif;
+  font-weight: normal;
+}
+
+.ProductsLine {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 70px;
+  height: 3px;
+  background-color: black;
+}
 
 .title {
   align-items: center;
@@ -227,7 +249,7 @@
   /* justify-content: center; */
   height: 75vh;
   /* width: 73%; */
-  /* width: 100%; */
+  width: 100%;
   margin: 0 auto;
   padding-top: 30px;
   /* margin-left: 64px;
@@ -311,16 +333,6 @@
 
 .card {
   border-radius: 40px;
-}
-
-.ProductsLine {
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
-  width: 115px;
-  height: 4px;
-  background-color: black;
 }
 
 /* Product cards */
