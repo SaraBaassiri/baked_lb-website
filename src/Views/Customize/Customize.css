@@ -91,8 +91,9 @@
     color: #7F7F7F;
     position: absolute;
     margin-top: -15px;
-    background-color: wheat;
+    background-color: #fff;
     z-index: 10;
+    right: 450px;
 }
 
 .crustOptions {
@@ -118,7 +119,6 @@
     font-size: 1em;
     font-weight: 450;
     padding: 5px;
-    text-align: center;
     text-transform: uppercase;
     color: #7F7F7F;
 }
@@ -135,8 +135,10 @@
 
 .flavorOptions button {
     background-color: #E0D2F5;
-    font-weight: 500;
+    font-weight: 525;
     border-radius: 15px;
+    width: 250px;
+    height: 60px;
 }
 
 .topping h5 {
@@ -160,8 +162,10 @@
 
 .toppingOptions button {
     background-color: #E0D2F5;
-    font-weight: 500;
+    font-weight: 525;
     border-radius: 15px;
+    width: 250px;
+    height: 60px;
 }
 
 .secondHalf button {
