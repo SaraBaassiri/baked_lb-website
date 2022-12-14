@@ -12,7 +12,6 @@ import { FreeMode} from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
-import Auth from "../../Components/popups/auth";
 
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
@@ -404,8 +403,9 @@ export default function Home() {
           <h2>Taking your celebration to a whole new level!</h2>
           <button className="lastButton">View All</button>
         </div>
-
-              <Auth />
+              
+              {/* import Auth from "../../Components/popups/auth"; */}
+              {/* <Auth /> */}
       </div>
     </div>
   );
