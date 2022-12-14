@@ -94,13 +94,12 @@
     background-color: #fff;
     z-index: 10;
     /* right: 450px; */
-    transform: translate(200%,-5%);
+    transform: translate(17vw,-5%);
     
 }
 
 .crustOptions {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     padding: 0 20px;
     justify-content: center;
@@ -114,7 +113,7 @@
     background-color: #E0D2F5;
     font-weight: 525;
     border-radius: 15px;
-    width: 250px;
+    width: 13vw;
     height: 60px;
 }
 
