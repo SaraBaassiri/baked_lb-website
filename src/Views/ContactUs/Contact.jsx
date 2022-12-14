@@ -65,7 +65,7 @@ export default function Contact() {
         <div className="Line"></div>
         <iframe
           title="unilocation"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.8210214007163!2d35.48150357545625!3d33.71357987328634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1e0d296bdb33%3A0x15bf12a3e6fb0e6!2sRafik%20Hariri%20University!5e0!3m2!1sen!2slb!4v1670901535223!5m2!1sen!2slb"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6435.436804113992!2d35.4907725218511!3d33.88953214358702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slb!4v1671049697687!5m2!1sen!2slb"
           width="600"
           className="map"
           allowfullscreen=""
