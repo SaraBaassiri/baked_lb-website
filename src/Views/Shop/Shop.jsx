@@ -5,10 +5,12 @@ import { Products } from "../Data/Items";
 import Item from "../../Components/Item/Item";
 
 import { useSelector } from "react-redux";
+import SpinningWheel from "../../Components/Wheel/Wheel";
 
 export default function Shop() {
   const items = useSelector((state) => state.cart.Items);
   const [visible, setVisible] = React.useState(true);
+
   return (
     <div className="shop">
       <div className="titles">
@@ -17,15 +19,36 @@ export default function Shop() {
       </div>
       {visible && (
         <div className="wheelContainer">
-          <p
-            onClick={() => {
-              setVisible(false);
-            }}
-            className="closeButtonShop"
-          >
-            X
-          </p>
-          <div className="wheel"></div>
+          <div className="wheel">
+            <SpinningWheel />
+          </div>
+
+          <div className="ContainerInfo">
+            <div className="closeWheelTop">
+              <p
+                onClick={() => {
+                  setVisible(false);
+                }}
+              >
+                X
+              </p>
+            </div>
+            <h3>Spin The Wheel</h3>
+            <span className="WheelLine"></span>
+            <h4>Hungry for more?</h4>
+            <p>
+              Sign up to try our spin the wheel for different offers for your
+              first order, exclusive offers, and more!
+            </p>
+            <div>
+              <div>
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Second Name" />
+              </div>
+              <input type="text" placeholder="Enter Your Email Address" />
+              <button>Subscribe Now</button>
+            </div>
+          </div>
         </div>
       )}
 

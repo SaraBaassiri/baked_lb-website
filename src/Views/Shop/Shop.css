@@ -119,6 +119,25 @@ button {
     margin-bottom: 30px;
 }
 
-.closeButtonShop {
- 
+.wheel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E0D2F5;
+    border-radius: 180px;
+    margin-bottom: 30px;
+}
+
+
+.ContainerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E0D2F5;
+    border-radius: 180px;
+    margin-bottom: 30px;
+}
+
+.closeWheelTop {
 }
