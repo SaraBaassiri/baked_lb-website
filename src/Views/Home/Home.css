@@ -409,6 +409,11 @@
   left: 0;
 }
 
+.favprodimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .eclipse {
   position: relative;
   top: 0;
