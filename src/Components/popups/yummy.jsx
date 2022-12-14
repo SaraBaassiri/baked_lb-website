@@ -13,13 +13,13 @@ class Yummy extends Component {
                 width: "1076px",
                 height: "500px",
                 borderRadius: "250px",
-                top: "43%",
-                right: "32%",
+                left: "50%",
+                top: "50%",
+                transform: "translate(-50%, -50%)",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                alignItems: "center",
-                zIndex: "1"
+                alignItems: "center",                
             }}
             >
                <h1>

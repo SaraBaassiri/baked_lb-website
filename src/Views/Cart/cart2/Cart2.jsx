@@ -35,7 +35,7 @@ export default function Cart() {
 
 
   useEffect(() => {
-    calculateTotal();
+  calculateTotal();
   });
 
   return (
