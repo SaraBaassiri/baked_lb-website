@@ -36,6 +36,7 @@ export default function Cart() {
 
   useEffect(() => {
   calculateTotal();
+  document.body.style.zoom = "75%";
   });
 
   return (

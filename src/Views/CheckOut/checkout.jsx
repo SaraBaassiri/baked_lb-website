@@ -61,6 +61,7 @@ const handleChange = (e) => {
 
   useEffect(() => {
     calculateTotal();
+    document.body.style.zoom = "75%";
   });
 
   return (
