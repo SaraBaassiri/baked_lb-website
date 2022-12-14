@@ -1,17 +1,18 @@
 import React from "react";
 import { useState } from "react";
 import "./Home.css";
+import "swiper/css/bundle";
+import "swiper/css/free-mode";
+// Import Swiper styles
+import "swiper/css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination} from "swiper";
-import "swiper/css/bundle";
-// Import Swiper styles
-import "swiper/css";
+import { FreeMode} from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
 import Auth from "../../Components/popups/auth";
-
 
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
@@ -22,10 +23,6 @@ import IndependanceDay from "../../Assets/IndependanceDay.svg";
 import { Grid } from "@mui/material";
 
 import { useNavigate } from "react-router-dom";
-
-
-
-
 
 export default function Home() {
   const navigate = useNavigate();
@@ -69,15 +66,16 @@ export default function Home() {
       </div>
 
       <div className="innerproduct">
-        <h1 className="title">Products</h1>
+        <h1 className="Productstitle">Products</h1>
         <div className="ProductsLine"></div>
       </div>
       <div className="Products">
         <Swiper
-          slidesPerView={5}
-          spaceBetween={30}
+          slidesPerView={4}
+          spaceBetween={20}
           centeredSlides={true}
           slidesPerGroup={1}
+          freeMode={true}
           loop={true}
           loopFillGroupWithBlank={true}
           pagination={{
@@ -85,34 +83,10 @@ export default function Home() {
             bulletClass: "my-bullet ",
           }}
           navigation={false}
-          modules={[Pagination]}
+          modules={[FreeMode, Pagination]}
           className="slide-content"
         >
           <div>
-            <SwiperSlide>
-              {/* Slide 1 */}
-              <div className="slide-container">
-                <div className="slide-content">
-                  <div className="card-wrapper">
-                    <div className="card">
-                      <div className="image-content">
-                        <span className="overlay"></span>
-                        <div className="card-image">
-                          <img
-                            src="/brownies2.png"
-                            alt="brownies"
-                            className="card-img"
-                          />
-                        </div>
-                      </div>
-                      <div className="card-content">
-                        <h2 className="productname">Brownies</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
 
             <SwiperSlide>
               {/* Slide 2 */}
@@ -166,7 +140,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              {/* Slide 4 */}
+              {/* Slide 6 */}
               <div className="slide-container">
                 <div className="slide-content">
                   <div className="card-wrapper">
@@ -175,14 +149,39 @@ export default function Home() {
                         <span className="overlay"></span>
                         <div className="card-image">
                           <img
-                            src="/cookies.png"
-                            alt="cookies"
-                            className="card-img4"
+                            src="/pinkstuff.png"
+                            alt="Macron"
+                            className="card-img6"
                           />
                         </div>
                       </div>
                       <div className="card-content">
-                        <h2 className="productname">Cookies</h2>
+                        <h2 className="productname">Macron</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              {/* Slide 7 */}
+              <div className="slide-container">
+                <div className="slide-content">
+                  <div className="card-wrapper">
+                    <div className="card">
+                      <div className="image-content">
+                        <span className="overlay"></span>
+                        <div className="card-image">
+                          <img
+                            src="/chocoChip.png"
+                            alt="Chip Cookies"
+                            className="card-img7"
+                          />
+                        </div>
+                      </div>
+                      <div className="card-content">
+                        <h2 className="productname">Chip Cookies</h2>
                       </div>
                     </div>
                   </div>
@@ -216,7 +215,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              {/* Slide 6 */}
+              {/* Slide 4 */}
               <div className="slide-container">
                 <div className="slide-content">
                   <div className="card-wrapper">
@@ -225,14 +224,39 @@ export default function Home() {
                         <span className="overlay"></span>
                         <div className="card-image">
                           <img
-                            src="/pinkstuff.png"
-                            alt="Macron"
-                            className="card-img6"
+                            src="/cookies.png"
+                            alt="cookies"
+                            className="card-img4"
                           />
                         </div>
                       </div>
                       <div className="card-content">
-                        <h2 className="productname">Macron</h2>
+                        <h2 className="productname">Cookies</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            
+            <SwiperSlide>
+              {/* Slide 1 */}
+              <div className="slide-container">
+                <div className="slide-content">
+                  <div className="card-wrapper">
+                    <div className="card">
+                      <div className="image-content">
+                        <span className="overlay"></span>
+                        <div className="card-image">
+                          <img
+                            src="/brownies2.png"
+                            alt="brownies"
+                            className="card-img"
+                          />
+                        </div>
+                      </div>
+                      <div className="card-content">
+                        <h2 className="productname">Brownies</h2>
                       </div>
                     </div>
                   </div>
