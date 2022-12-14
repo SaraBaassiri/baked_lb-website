@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./Home.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,6 +9,9 @@ import "swiper/css/bundle";
 import "swiper/css";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
+
+import Auth from "../../Components/popups/auth";
+
 
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
@@ -19,8 +23,14 @@ import { Grid } from "@mui/material";
 
 import { useNavigate } from "react-router-dom";
 
+
+
+
+
 export default function Home() {
   const navigate = useNavigate();
+  const [clicked, setClicked] = useState(false)
+
   return (
     <div>
       <div className="Hero">
@@ -128,6 +138,7 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
+
 
             <SwiperSlide>
               {/* Slide 3 */}
@@ -369,6 +380,8 @@ export default function Home() {
           <h2>Taking your celebration to a whole new level!</h2>
           <button className="lastButton">View All</button>
         </div>
+
+              <Auth />
       </div>
     </div>
   );
