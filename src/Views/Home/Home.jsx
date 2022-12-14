@@ -14,7 +14,6 @@ import { FreeMode} from "swiper";
 
 import Auth from "../../Components/popups/auth";
 
-
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
 import Pumpkin from "../../Assets/Pumpkin.svg";
@@ -24,10 +23,6 @@ import IndependanceDay from "../../Assets/IndependanceDay.svg";
 import { Grid } from "@mui/material";
 
 import { useNavigate } from "react-router-dom";
-
-
-
-
 
 export default function Home() {
   const navigate = useNavigate();
@@ -92,30 +87,6 @@ export default function Home() {
           className="slide-content"
         >
           <div>
-            <SwiperSlide>
-              {/* Slide 1 */}
-              <div className="slide-container">
-                <div className="slide-content">
-                  <div className="card-wrapper">
-                    <div className="card">
-                      <div className="image-content">
-                        <span className="overlay"></span>
-                        <div className="card-image">
-                          <img
-                            src="/brownies2.png"
-                            alt="brownies"
-                            className="card-img"
-                          />
-                        </div>
-                      </div>
-                      <div className="card-content">
-                        <h2 className="productname">Brownies</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
 
             <SwiperSlide>
               {/* Slide 2 */}
@@ -169,7 +140,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              {/* Slide 4 */}
+              {/* Slide 6 */}
               <div className="slide-container">
                 <div className="slide-content">
                   <div className="card-wrapper">
@@ -178,14 +149,39 @@ export default function Home() {
                         <span className="overlay"></span>
                         <div className="card-image">
                           <img
-                            src="/cookies.png"
-                            alt="cookies"
-                            className="card-img4"
+                            src="/pinkstuff.png"
+                            alt="Macron"
+                            className="card-img6"
                           />
                         </div>
                       </div>
                       <div className="card-content">
-                        <h2 className="productname">Cookies</h2>
+                        <h2 className="productname">Macron</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              {/* Slide 7 */}
+              <div className="slide-container">
+                <div className="slide-content">
+                  <div className="card-wrapper">
+                    <div className="card">
+                      <div className="image-content">
+                        <span className="overlay"></span>
+                        <div className="card-image">
+                          <img
+                            src="/chocoChip.png"
+                            alt="Chip Cookies"
+                            className="card-img7"
+                          />
+                        </div>
+                      </div>
+                      <div className="card-content">
+                        <h2 className="productname">Chip Cookies</h2>
                       </div>
                     </div>
                   </div>
@@ -219,7 +215,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              {/* Slide 6 */}
+              {/* Slide 4 */}
               <div className="slide-container">
                 <div className="slide-content">
                   <div className="card-wrapper">
@@ -228,14 +224,39 @@ export default function Home() {
                         <span className="overlay"></span>
                         <div className="card-image">
                           <img
-                            src="/pinkstuff.png"
-                            alt="Macron"
-                            className="card-img6"
+                            src="/cookies.png"
+                            alt="cookies"
+                            className="card-img4"
                           />
                         </div>
                       </div>
                       <div className="card-content">
-                        <h2 className="productname">Macron</h2>
+                        <h2 className="productname">Cookies</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            
+            <SwiperSlide>
+              {/* Slide 1 */}
+              <div className="slide-container">
+                <div className="slide-content">
+                  <div className="card-wrapper">
+                    <div className="card">
+                      <div className="image-content">
+                        <span className="overlay"></span>
+                        <div className="card-image">
+                          <img
+                            src="/brownies2.png"
+                            alt="brownies"
+                            className="card-img"
+                          />
+                        </div>
+                      </div>
+                      <div className="card-content">
+                        <h2 className="productname">Brownies</h2>
                       </div>
                     </div>
                   </div>
