@@ -10,6 +10,23 @@ import SpinningWheel from "../../Components/Wheel/Wheel";
 export default function Shop() {
   const items = useSelector((state) => state.cart.Items);
   const [visible, setVisible] = React.useState(true);
+  const wheel = React.useRef(null);
+
+  React.useEffect(() => {
+    spinRandom();
+  }, []);
+
+  const spinRandom = () => {
+    //Spin the image randomly
+    const random = Math.floor(Math.random() * 360);
+    wheel.current.style.transform = `rotate(${random}deg)`;
+    //Animate the image spinning
+    wheel.current.style.transition = "all 3s ease-out";
+    //After the animation is done, remove the transition
+    setTimeout(() => {
+      wheel.current.style.transition = "none";
+    }, 5000);
+  };
 
   return (
     <div className="shop">
@@ -20,7 +37,9 @@ export default function Shop() {
       {visible && (
         <div className="wheelContainer">
           <div className="wheel">
-            <SpinningWheel />
+            {/* <SpinningWheel /> */}
+
+            <img ref={wheel} src="/wheel.png" alt="Group-1" border="0" />
           </div>
 
           <div className="ContainerInfo">
