@@ -377,7 +377,7 @@ h3{
     border-radius: 17px;
     border: 1.5px solid #000000;
     background-color: #C2EDED;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .blackLine2 {

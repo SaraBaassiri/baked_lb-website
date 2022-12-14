@@ -45,7 +45,7 @@ export default function Cart() {
 
     <div className="inner" >
       <div className="infoContainer">
-        <div className="BigInput" > 
+        <div className="BigInput" >
         <div className="blackcircle" >
           a
         </div>
@@ -63,8 +63,8 @@ export default function Cart() {
           Shipping Address
         </p>
         </div>
-        <div className="inputContainer" > 
-        <div className="Left" > 
+        <div className="inputContainer" >
+        <div className="Left" >
         <p>First Name*</p>
         <input
           value={name}
@@ -87,8 +87,8 @@ export default function Cart() {
             setCity(e.target.value);
           }}
 
-        
-        
+
+
         ></input>
         <p>Postal Code*</p>
         <input
@@ -97,19 +97,19 @@ export default function Cart() {
           onChange={(e) => {
             setPostalCode(e.target.value);
           }}
-        
+
         ></input>
         </div>
         <div className="Right" >
         <p>Last Name*</p>
         <input
-        
+
           value={lastName}
           onChange={(e) => {
             setLastName(e.target.value);
           }}
 
-        
+
         ></input>
         <p>Apt. Suite*</p>
         <input
@@ -117,7 +117,7 @@ export default function Cart() {
           onChange={(e) => {
             setAddress(e.target.value);
           }}
-        
+
         ></input>
         <p>Country*  </p>
         <input
@@ -125,7 +125,7 @@ export default function Cart() {
           onChange={(e) => {
             setCountry(e.target.value);
           }}
-        
+
         ></input>
         <p>Phone Number*</p>
         <input
@@ -138,15 +138,25 @@ export default function Cart() {
 
         </div>
       <div className="Stuff">
-        <div className="radiobtns">
+        
+          <div 
+          style={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginTop: "20px",
+            gap: "20px"
+          }}
+          >
+            <Radio /> <p style={{
 
-        <Radio /> <p style={{
-          marginRight: "20px"
         }} >Home (All Day Delivery)</p>
 
         <Radio /> <p>Office (Delivery Between 10 AM - 5PM)</p>
-        
-        </div>
+          </div>
+
         <div className="saveCancelContainer" >
           <button className="save">SAVE AND DELIVER HERE</button>
           <p>
@@ -160,7 +170,7 @@ export default function Cart() {
 
           {/* <button className="paymentMethod" >
             <div className="blackcircle">
-              <h4 
+              <h4
              style={{
                 color: "white",
                 fontSize: "20px",
@@ -173,7 +183,7 @@ export default function Cart() {
             </div>
             PAYMENT METHOD
           </button> */}
-          {/* <button className="payNow" 
+          {/* <button className="payNow"
           onClick ={
             () => {
               navigate("/checkout")
