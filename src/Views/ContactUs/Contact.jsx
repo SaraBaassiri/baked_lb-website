@@ -14,37 +14,49 @@ export default function Contact() {
             <label>
               <input
                 type="text"
-                id="fname"
+                className="namebox leftbox inputbox"
                 name="firstname"
-                placeholder="Your name.."
+                placeholder="First Name"
               />
             </label>
             <label>
               <input
                 type="text"
-                id="lname"
+                className="namebox rightbox inputbox"
                 name="lastname"
-                placeholder="Your last name.."
+                placeholder="Last Name"
               />
             </label>
+
+            <label>
+              <input
+                type="text"
+                className="emailbox inputbox"
+                name="email"
+                placeholder="Enter Your Email Address"
+              />
+            </label>
+
             <label>
               <textarea
                 id="subject"
                 name="subject"
-                placeholder="Write something.."
+                className="messagebox inputbox"
+                placeholder="Message"
               ></textarea>
             </label>
-            <label>
-              <input type="submit" value="Submit" />
-            </label>
+
+            <button className="Subscribe">
+              SUBSCRIBE NOW!
+            </button>
           </form>
 
-          <form>
+          {/* <form>
             <label>
               Enter your name:
               <input type="text" />
             </label>
-          </form>
+          </form> */}
         </div>
       </div>
 
