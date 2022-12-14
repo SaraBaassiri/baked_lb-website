@@ -47,7 +47,7 @@
   font-size: 100px;
   font-weight: 400;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 120px;
   z-index: 1;
   width: max-content;
   padding: 10px;
@@ -83,7 +83,7 @@
   z-index: 1;
   font-size: 25px;
   margin-right: 3%;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px;
 }
 
@@ -167,7 +167,7 @@
   background-color: #e0d2f5;
   color: black;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: medium;
   border-radius: 28px;
   padding: 10px 25px;
   border: none;
@@ -193,13 +193,13 @@
   width: 115px;
   height: 3px;
   background-color: black;
-  margin-bottom: 5%;
+  margin-bottom: 70px;
 }
 
 .Baker-Des {
   color: black;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: lighter;
   text-align: left;
   display: flex;
   margin-bottom: 5%;
@@ -372,7 +372,7 @@
 
 .AllTimeFav > h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 50px;
   margin-top: 100px;
   font-weight: 400;
 }
@@ -497,9 +497,9 @@
 
 .CustomButton {
   margin-top: 60px;
-  background-color: #fbe6a8;
+  background-color: #FFF9DE;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   border-radius: 28px;
   padding: 12px 30px;
@@ -515,6 +515,7 @@
   color: black;
   font-size: 50px;
   text-align: left;
+  font-weight: normal;
 }
 
 .BlackLineCustom {
@@ -539,9 +540,11 @@
 }
 
 .SpecialOcasions h1 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   margin-top: 100px;
+  font-weight: normal;
+  margin-bottom: 100px;
 }
 
 .item {
@@ -571,10 +574,11 @@
 }
 
 .BottomDiv h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 100px;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: normal;
 }
 
 .lastButton {
