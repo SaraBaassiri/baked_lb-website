@@ -3,9 +3,10 @@ import "./Shop.css";
 import { Grid } from "@mui/material";
 import { Products } from "../Data/Items";
 import Item from "../../Components/Item/Item";
+import { BsXLg } from "react-icons/bs";
 
 import { useSelector } from "react-redux";
-import SpinningWheel from "../../Components/Wheel/Wheel";
+// import SpinningWheel from "../../Components/Wheel/Wheel";
 
 export default function Shop() {
   const items = useSelector((state) => state.cart.Items);
@@ -35,33 +36,36 @@ export default function Shop() {
         <div className="wheelContainer">
           <div className="wheel">
             {/* <SpinningWheel /> */}
-
+            <span className="selectorWheel">&#9660;</span>
             <img ref={wheel} src="/wheel.png" alt="Group-1" border="0" />
           </div>
 
           <div className="ContainerInfo">
-            <div className="closeWheelTop">
-              <p
-                onClick={() => {
-                  setVisible(false);
-                }}
-              >
-                X
-              </p>
+            <div
+              className="closeWheelTop"
+              onClick={() => {
+                setVisible(false);
+              }}
+            >
+              <BsXLg />
             </div>
-            <h3>Spin The Wheel</h3>
+            <h2>Spin The Wheel</h2>
             <span className="WheelLine"></span>
             <h4>Hungry for more?</h4>
             <p>
               Sign up to try our spin the wheel for different offers for your
               first order, exclusive offers, and more!
             </p>
-            <div>
-              <div>
+            <div className="InnerInfoContainer">
+              <div className="NameInputs">
                 <input type="text" placeholder="First Name" />
-                <input type="text" placeholder="Second Name" />
+                <input type="text" placeholder="Last Name" />
               </div>
-              <input type="text" placeholder="Enter Your Email Address" />
+              <input
+                type="text"
+                placeholder="Enter Your Email Address"
+                className="EmailInputWheel"
+              />
               <button>Subscribe Now</button>
             </div>
           </div>
