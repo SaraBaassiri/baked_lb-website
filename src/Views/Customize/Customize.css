@@ -60,15 +60,27 @@
     margin-top: 5px;
 }
 
+/* Right Side */
+
 .CustomizeOptions {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding: 0 20px;
-    /* min-height: 300px; */
-    justify-content: center;
 }
+
+.BackGroundRectangle {
+    height: 50px;
+    width: 800px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.crust {
+    margin: 0 auto;
+}
+
 
 .crust h5 {
     font-size: 1em;
@@ -77,23 +89,29 @@
     text-align: center;
     text-transform: uppercase;
     color: #7F7F7F;
+    position: absolute;
+    margin-top: -15px;
+    background-color: wheat;
+    z-index: 10;
 }
 
 .crustOptions {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding: 0 20px;
-    /* min-height: 300px; */
     justify-content: center;
+    z-index: 10;
+    position: absolute;
+    margin-top: -30px;
 }
 
 .crustOptions button {
     background-color: #E0D2F5;
-    border: black 1px solid;
     font-weight: 525;
     border-radius: 15px;
+    width: 250px;
+    height: 60px;
 }
 
 .flavor h5 {
@@ -117,7 +135,6 @@
 
 .flavorOptions button {
     background-color: #E0D2F5;
-    border: black 1px solid;
     font-weight: 500;
     border-radius: 15px;
 }
@@ -143,14 +160,12 @@
 
 .toppingOptions button {
     background-color: #E0D2F5;
-    border: black 1px solid;
     font-weight: 500;
     border-radius: 15px;
 }
 
 .secondHalf button {
     background-color: #FFF9DE;
-    border: black 1px solid;
     font-weight: 500;
     border-radius: 15px;
     text-transform: none;
