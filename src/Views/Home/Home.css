@@ -409,8 +409,8 @@
   left: 0;
 }
 
-.favprodimg img:hover {
-  transform: scale(1.1);
+.innerImage:hover {
+  transform: scale(1.2);
   transition: 0.5s;
 }
 
