@@ -137,6 +137,7 @@ export default function Cart() {
            </div>
 
         </div>
+      <div className="Stuff">
         <div className="radiobtns">
 
         <Radio /> <p style={{
@@ -151,6 +152,7 @@ export default function Cart() {
           <p>
             Cancel
           </p>
+        </div>
         </div>
         <div className="paymentBtns" >
 
