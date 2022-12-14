@@ -71,7 +71,7 @@
 
 .BackGroundRectangle {
     height: 50px;
-    width: 800px;
+    width: 42vw;
     background-color: #fff;
     border: 2px solid black;
     border-radius: 20px;
@@ -93,7 +93,9 @@
     margin-top: -15px;
     background-color: #fff;
     z-index: 10;
-    right: 450px;
+    /* right: 450px; */
+    transform: translate(200%,-5%);
+    
 }
 
 .crustOptions {
@@ -105,6 +107,7 @@
     z-index: 10;
     position: absolute;
     margin-top: -30px;
+    transform: translate(0,-5%);
 }
 
 .crustOptions button {
