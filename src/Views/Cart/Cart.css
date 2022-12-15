@@ -38,15 +38,14 @@ h3{
 .blueDiv {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     margin: 0 auto;
-    width: 90%;
-    height: 979.48px;
+    width: 80%;
+    height: auto;
     border-radius: 17px;
     border: 1.5px solid #000000;
     background-color: #C2EDED;
     overflow-y: scroll;
+    overflow: hidden;
 }
 
 .blackLine2 {
@@ -107,25 +106,28 @@ h3{
     width: 50%;
 }
 
-.total{
-    font-size: 50px;
+.total {
+    font-size: 25px;
 }
+
 .totalText {
     padding-right: 200px;
+    font-size: large;
 }
 
 .btnContainer{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
+    width: 90%;
 }
+
 .proceedbtn {
     height: 100%;
     border-radius: 30px;
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 25px;
-    padding-right: 200px;
+    padding-right: 180px;
     padding-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
