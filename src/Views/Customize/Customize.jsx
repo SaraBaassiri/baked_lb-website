@@ -61,6 +61,10 @@ export default function Customize() {
             </div>
             <div className="flavor">
               <h5>Choose the Flavor</h5>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
               <div className="flavorOptions">
                 <button>Red Velvet</button>
                 <button>Chocolate</button>
@@ -75,6 +79,10 @@ export default function Customize() {
             </div>
             <div className="topping">
               <h5>Choose the Topping</h5>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
+              <div className="BackGroundRectangle"></div>
               <div className="toppingOptions">
                 <button>Peanuts</button>
                 <button>Chocolate</button>
