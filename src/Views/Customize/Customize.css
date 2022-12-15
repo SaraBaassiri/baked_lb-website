@@ -119,7 +119,7 @@
 
 .flavor {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .flavor h5 {
@@ -158,6 +158,11 @@
     margin: 5px 2px;
 }
 
+.topping {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
 .topping h5 {
     font-size: 1em;
     font-weight: 450;
@@ -165,27 +170,37 @@
     text-align: center;
     text-transform: uppercase;
     color: #7F7F7F;
+    position: absolute;
+    margin-top: -15px;
+    background-color: #fff;
+    z-index: 10;
+    /* right: 450px; */
+    transform: translate(17vw,-5%);
 }
 
 .toppingOptions {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding: 0 20px;
-    /* min-height: 300px; */
     justify-content: center;
+    z-index: 10;
+    position: absolute;
+    margin-top: -192px;
+    transform: translate(-5.5%,0%);
 }
 
 .toppingOptions button {
     background-color: #E0D2F5;
     font-weight: 525;
     border-radius: 15px;
-    width: 250px;
+    width: 13vw;
     height: 60px;
+    margin: 5px 2px;
 }
 
 .secondHalf button {
+    margin-top: 100px;
     background-color: #FFF9DE;
     font-weight: 500;
     border-radius: 15px;
