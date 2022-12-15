@@ -104,7 +104,7 @@ export default function Customize() {
               </div>
             </div>
             <div className="secondHalf">
-              {half === "First Half" ? (
+              {half === "1st Half" ? (
                 <button onClick={handleSecondHalf}>
                   Proceed with the next half
                 </button>
