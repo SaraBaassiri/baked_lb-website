@@ -8,7 +8,7 @@
 }
 
 .Title{
-    /* font-family: 'Keira Serif Free', serif; */
+    font-family: 'Keira Serif Free', serif;
     font-size: 70px;
     font-weight: 350;
     color: #000000;
@@ -28,11 +28,13 @@
 }
 .fw-200{
     font-weight: 200;
+    font-family: 'Poppins', sans-serif;
 }
 
 h3{
     font-size: 22px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .blueDiv {
@@ -56,6 +58,7 @@ h3{
 }
 .inTitle{
     margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .orderContainer{
@@ -82,6 +85,7 @@ h3{
 .theBreakThingy{
     font-size: 25px;
     padding-right: 250px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .itemimg{
@@ -113,12 +117,17 @@ h3{
 .totalText {
     padding-right: 200px;
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btnContainer{
     display: flex;
     justify-content: flex-end;
     width: 90%;
+}
+
+.orderTitle{
+    font-family: 'Poppins', sans-serif;
 }
 
 .proceedbtn {
@@ -131,6 +140,7 @@ h3{
     padding-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .proceedbtn:hover {
