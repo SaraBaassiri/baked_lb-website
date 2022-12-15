@@ -20,7 +20,7 @@ export default function Cart() {
   };
 
   useEffect(() => {
-    document.body.style.zoom = "75%";
+    // document.body.style.zoom = "75%";
     calculateTotal();
   });
 
@@ -28,7 +28,7 @@ export default function Cart() {
     <div className="Conatainer">
       <h1 className="Title ml-5">Shopping Cart</h1>
       <div className="blackLine ml-5"></div>
-      <div className="blueDiv" style={{ overflowy: "scrol" }}>
+      <div className="blueDiv">
         <h2 className="inTitle">Your order</h2>
         <div className="blackLine2"></div>
         {items.map((item) => {
@@ -55,7 +55,14 @@ export default function Cart() {
             </h3>
           </div>
           <h1 className="total">
-            <span className="totalText">TOTAL</span> ${total}
+            <span className="totalText">TOTAL</span>
+            <span
+              style={{
+                fontSize: "2rem",
+              }}
+            >
+              ${total}
+            </span>
           </h1>
         </div>
       </div>

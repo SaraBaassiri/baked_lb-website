@@ -7,11 +7,10 @@ import "swiper/css/free-mode";
 import "swiper/css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination} from "swiper";
-import { FreeMode} from "swiper";
+import { Pagination } from "swiper";
+import { FreeMode } from "swiper";
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
-
 
 //Svg
 import bakerImage from "../../Assets/meetTheBaker.svg";
@@ -85,7 +84,6 @@ export default function Home() {
           className="slide-content"
         >
           <div>
-
             <SwiperSlide>
               {/* Slide 2 */}
               <div className="slide-container">
@@ -110,7 +108,6 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
-
 
             <SwiperSlide>
               {/* Slide 3 */}
@@ -236,7 +233,7 @@ export default function Home() {
                 </div>
               </div>
             </SwiperSlide>
-            
+
             <SwiperSlide>
               {/* Slide 1 */}
               <div className="slide-container">
@@ -292,7 +289,14 @@ export default function Home() {
                 you would fall for.
               </p>
               <p id="price">$5</p>
-              <button id="buyNowBtn">Buy Now</button>
+              <button
+                id="buyNowBtn"
+                onClick={() => {
+                  navigate("/shop");
+                }}
+              >
+                Buy Now
+              </button>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -311,7 +315,14 @@ export default function Home() {
                 chocolate chips and rich dark chunks.
               </p>
               <p id="price">$2.5</p>
-              <button id="buyNowBtn">Buy Now</button>
+              <button
+                id="buyNowBtn"
+                onClick={() => {
+                  navigate("/shop");
+                }}
+              >
+                Buy Now
+              </button>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -326,7 +337,14 @@ export default function Home() {
                 reflects the taste of a yummy fruity element.
               </p>
               <p id="price">$10</p>
-              <button id="buyNowBtn">Buy Now</button>
+              <button
+                id="buyNowBtn"
+                onClick={() => {
+                  navigate("/shop");
+                }}
+              >
+                Buy Now
+              </button>
             </div>
           </Grid>
         </Grid>
@@ -402,9 +420,9 @@ export default function Home() {
           <h2>Taking your celebration to a whole new level!</h2>
           <button className="lastButton">View All</button>
         </div>
-              
-              {/* import Auth from "../../Components/popups/auth"; */}
-              {/* <Auth /> */}
+
+        {/* import Auth from "../../Components/popups/auth"; */}
+        {/* <Auth /> */}
       </div>
     </div>
   );
