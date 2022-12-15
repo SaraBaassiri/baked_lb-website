@@ -67,6 +67,20 @@
   font-family: "Poppins", sans-serif;
 }
 
+.closeWheelTop {
+  position: absolute;
+  z-index: 5;
+  margin-top: 5%;
+  /* margin-left: 89%; */
+  background-color: #fff9de;
+  border-radius: 120px;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 6px 9px;
+  cursor: pointer;
+  border: #000 1px solid;
+}
+
 .inputbox2 {
   border-width: 2px;
   font-family: "Poppins", sans-serif;

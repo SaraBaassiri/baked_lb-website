@@ -1,10 +1,12 @@
 import "./auth.css";
 import React, { Component } from 'react';
-
+import { useState } from "react";
+import { BsXLg } from "react-icons/bs";
 
 class Auth extends Component {
     state = {  }
     render() {
+        // const [clicked, setClicked] = useState(false);
         return (
             <div
                 style={{
@@ -27,6 +29,11 @@ class Auth extends Component {
                 }}
             >
                 <div>
+                    <div className="closeWheelTop"
+                    // onClick={() => {
+                    //     setClicked(clicked);
+                    //   }}
+                      ><BsXLg /></div>
                     <div className="everything">
                         <h1 className="titleR">REGISTER</h1>
                         <div className="titleRline"></div>
