@@ -9,7 +9,7 @@
 }
 
 .Title {
-  /* font-family: 'Keira Serif Free', serif; */
+  font-family: 'Keira Serif Free', serif;
   font-size: 70px;
   font-weight: 350;
   color: #000000;
@@ -27,6 +27,7 @@
 
 .ml-5 {
   margin-left: 5%;
+  font-family: 'Poppins', sans-serif;
 }
 .fw-200 {
   font-weight: 200;
@@ -91,8 +92,10 @@ h3 {
 .shipping p {
   padding-left: 90px;
   font-size: 21px;
-  font-weight: 200;
+  font-weight: bold;
   margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 .thingstogodown {
@@ -117,6 +120,7 @@ h3 {
   font-weight: 400;
   color: #000000;
   margin-right: 10%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Left {
@@ -144,6 +148,7 @@ h3 {
   font-size: 22px;
   text-align: start;
   padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Right input {
@@ -154,6 +159,7 @@ h3 {
   font-size: 22px;
   text-align: start;
   padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Right input:focus {
@@ -163,8 +169,16 @@ h3 {
   outline: none;
 }
 
+.Stuff h {
+  font-family: 'Poppins', sans-serif;
+}
+
 .Right p {
   padding-right: 290px;
+}
+
+.Right Radio {
+  font-family: 'Poppins', sans-serif;
 }
 
 .inner {
@@ -213,6 +227,7 @@ h3 {
   border-radius: 29px;
   font-size: 22px;
   font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
 }
 
 .paymentMethod {
@@ -237,6 +252,7 @@ h3 {
 
 .paybtn {
   margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .blueDiv2 {
