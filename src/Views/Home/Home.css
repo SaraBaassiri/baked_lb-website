@@ -602,6 +602,7 @@
   font-weight: 300;
   text-align: center;
   margin-top: 20px;
+  font-family: "poppins" sans-serif;
 }
 
 .BottomDiv {
@@ -614,6 +615,7 @@
   text-align: center;
   margin-bottom: 50px;
   font-weight: normal;
+  font-family: "poppins" sans-serif;
 }
 
 .lastButton {
@@ -630,4 +632,5 @@
   margin-right: auto;
   text-transform: uppercase;
   margin-top: 50px;
+  font-family: "poppins" sans-serif;
 }
