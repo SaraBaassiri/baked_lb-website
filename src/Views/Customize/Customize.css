@@ -199,12 +199,21 @@
     margin: 5px 2px;
 }
 
+
 .secondHalf button {
-    margin-top: 100px;
-    background-color: #FFF9DE;
+    margin-top: 50px;
+    background-color: #C2EDED;
     font-weight: 500;
     border-radius: 15px;
     text-transform: none;
-    font-size: 0.8em;
+    font-size: 22px;
     justify-self: center;
+    width: 25vw;
+    height: 60px;
+    transform: translate(30% ,0);
+}
+
+.secondHalf button:hover {
+    opacity: 0.8;
+    background-color: #C2EDED;
 }
