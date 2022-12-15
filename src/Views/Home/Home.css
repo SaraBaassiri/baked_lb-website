@@ -164,15 +164,15 @@
   margin-top: 60px;
   background-color: #e0d2f5;
   color: black;
-  font-size: 15px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: medium;
   border-radius: 28px;
   padding: 10px 25px;
   border: none;
   cursor: pointer;
   display: block;
   margin-left: auto;
-  margin-right: 300px;
+  margin-right: auto;
   text-transform: uppercase;
 }
 
@@ -196,12 +196,11 @@
 
 .Baker-Des {
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: lighter;
   text-align: left;
   display: flex;
   margin-bottom: 5%;
-  width: 75%;
 }
 
 /* Products Section */
@@ -212,7 +211,7 @@
   width: 89%;
   padding-top: 75px;
   padding-right: 20px;
-  font: 36px;
+  font: 60px;
   margin: 0 auto;
   font-family: "Keira Serif Free", sans-serif;
   font-weight: normal;
