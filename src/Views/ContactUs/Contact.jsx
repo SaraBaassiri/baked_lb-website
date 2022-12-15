@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="grid-container">
       <div className="grid-child leftside">
-        <h1 className="title">Contact us</h1>
+        <h1 className="title2">Contact us</h1>
         <div className="Line"></div>
         {/* Form begins */}
         <p className="cout">Contact the help team</p>
@@ -61,7 +61,7 @@ export default function Contact() {
       </div>
 
       <div className="grid-child rightside">
-        <h1 className="title">Pay us a visit</h1>
+        <h1 className="title2">Pay us a visit</h1>
         <div className="Line"></div>
         <iframe
           title="unilocation"
