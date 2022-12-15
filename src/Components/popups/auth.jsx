@@ -29,11 +29,11 @@ class Auth extends Component {
                 }}
             >
                 <div>
-                    <div className="closeWheelTop"
+                    {/* <div className="closeWheelTop"
                     // onClick={() => {
                     //     setClicked(clicked);
                     //   }}
-                      ><BsXLg /></div>
+                      ><BsXLg /></div> */}
                     <div className="everything">
                         <h1 className="titleR">REGISTER</h1>
                         <div className="titleRline"></div>

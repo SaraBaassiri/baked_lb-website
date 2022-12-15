@@ -1,471 +1,434 @@
-.Container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #f5f5f5;
-    height: 100vh;
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 100vh;
 }
 
-.Title{
-    /* font-family: 'Keira Serif Free', serif; */
-    font-size: 70px;
-    font-weight: 350;
-    color: #000000;
-    margin: 0 auto;
-    margin-top: 50px;
+.Title {
+  /* font-family: 'Keira Serif Free', serif; */
+  font-size: 70px;
+  font-weight: 350;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .blackLine {
-    width: 124.39px;
-    height: 4px;
-    background-color: #000000;
-    margin-bottom: 2%;
+  width: 124.39px;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 2%;
 }
 
-.ml-5{
-    margin-left: 5%;
+.ml-5 {
+  margin-left: 5%;
 }
-.fw-200{
-    font-weight: 200;
-}
-
-h3{
-    font-size: 22px;
-    font-weight: bold;
+.fw-200 {
+  font-weight: 200;
 }
 
-.infoContainer{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2%;
-    gap: 20px;
-    width: 50%;
-}
-.BigInputCard{
-   width: 848px;
-   height: 92px;
-    border-radius: 46px;
-    border: 2px solid black;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 20px;
+h3 {
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.masterLogoContainer{
-    width: 10%;
-    height: 100%;
-    padding-top: 30px;  
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+  gap: 20px;
+  width: 50%;
+}
+.BigInputCard {
+  width: 848px;
+  height: 92px;
+  border-radius: 46px;
+  border: 2px solid black;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
 }
 
-.inputCardNumber{
-    width: 700px;
-    height: 58px;
-    border: 0px;
-    font-weight: bold;
-    font-size: 21px;
-    color: #CCCACA;
-    margin-left: 20px;
-}
-.inputCardNumber:focus{
-    outline: none;
+.masterLogoContainer {
+  width: 10%;
+  height: 100%;
+  padding-top: 30px;
 }
 
-.masterCardLogoCircleOne{
-    width: 28px;
-    height: 28px;
-    border-radius: 23px;
-    background-color: #F56E6E;
-    margin-left: 8px;
-    margin-top: 20px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    margin-bottom: 50px;
+.inputCardNumber {
+  width: 700px;
+  height: 58px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 21px;
+  color: #cccaca;
+  margin-left: 20px;
 }
-.masterCardLogoCircleTwo{
-    width: 28px;
-    height: 28px;
-    border-radius: 23px;
-    background-color: #F5A35D;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    margin-bottom: 50px;
+.inputCardNumber:focus {
+  outline: none;
 }
 
-.inputContainer{
-    display: flex;
-    flex-direction: column;
-    width: 86%;
-    align-items: center;
+.masterCardLogoCircleOne {
+  width: 28px;
+  height: 28px;
+  border-radius: 23px;
+  background-color: #f56e6e;
+  margin-left: 8px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 50px;
+}
+.masterCardLogoCircleTwo {
+  width: 28px;
+  height: 28px;
+  border-radius: 23px;
+  background-color: #f5a35d;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 50px;
 }
 
-
-
-.inputContainer1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  align-items: center;
 }
 
+.inputContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
-.inputDate{
-    width: 130.5px;
-    height: 58px;
-    border-radius: 29px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 13%;
+.inputDate {
+  width: 130.5px;
+  height: 58px;
+  border-radius: 29px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 13%;
 }
 
 .InputDate {
-    width: 150px;
-    height: 58px;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 29px;
-    border: 1px solid black;
+  width: 150px;
+  height: 58px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 29px;
+  border: 1px solid black;
 }
 
-.inputText{
-    font-size: 22px;
+.inputText {
+  font-size: 22px;
 }
 
-
-.inputCVV{
-    width: 290px;
-    height: 58px;
-    border-radius: 29px;
-    align-self: flex-end;
-    font-weight: bold;
-    font-size: 21px;
-    text-align: center;
-    border: none;
+.inputCVV {
+  width: 290px;
+  height: 58px;
+  border-radius: 29px;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+  border: none;
 }
 
-.CVVInput{
-    width: 335px;
-    height: 60px;
-    border-radius: 29px;
-    border: 1px solid black;
+.CVVInput {
+  width: 335px;
+  height: 60px;
+  border-radius: 29px;
+  border: 1px solid black;
 }
 
-.inputCVV:focus{
-    outline: none;
-    border: none;
+.inputCVV:focus {
+  outline: none;
+  border: none;
 }
 
-.blackcircle{
-    width: 22px;
-    height: 22px;
-    border-radius: 23px;
-    background-color: black;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    margin-bottom: 50px;
+.blackcircle {
+  width: 22px;
+  height: 22px;
+  border-radius: 23px;
+  background-color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 50px;
 }
 
 .BigInput p {
-    font-weight: bold;
-    font-size: 21px;
-    padding-left: 20px; 
-
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 20px;
 }
-.BigInput p span{
-    padding-left: 50px;
-}
-
-.shipping{
-    height: 58px;
-    width: 845px;
-    border-radius: 29px;
-    font-weight: bold;
-    text-align: start;
-    border: 2px solid black;
-    padding-left: 20px;
+.BigInput p span {
+  padding-left: 50px;
 }
 
-.shipping p{
-    padding-left: 90px;
-    font-size: 21px;
-    font-weight: 200;
-    margin-top: 2%;
+.shipping {
+  height: 58px;
+  width: 845px;
+  border-radius: 29px;
+  font-weight: bold;
+  text-align: start;
+  border: 2px solid black;
+  padding-left: 20px;
 }
 
-.thingstogodown{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.shipping p {
+  padding-left: 90px;
+  font-size: 21px;
+  font-weight: 200;
+  margin-top: 2%;
 }
 
-.inputContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 15%;
-    margin-bottom: 2%;
+.thingstogodown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.change{
-    font-weight: 400;
-    color: #000000;
-    margin-right: 10%;
-
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 15%;
+  margin-bottom: 2%;
 }
 
-.Left{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 20px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.Right{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: flex-end;
+.change {
+  font-weight: 400;
+  color: #000000;
+  margin-right: 10%;
 }
 
-.Left input{
-    width: 402.97px;
-    height: 58px;
-    font-weight: bold;
-    border-radius: 29px;
-    font-size: 22px;
-    text-align: start;
-    padding-left: 20px;
+.Left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Left input {
+  width: 402.97px;
+  height: 58px;
+  font-weight: bold;
+  border-radius: 29px;
+  font-size: 22px;
+  text-align: start;
+  padding-left: 20px;
 }
 
 .Right input {
-    width: 369.37px;
-    height: 58px;
-    font-weight: bold;
-    border-radius: 29px;
-    font-size: 22px;
-    text-align: start;
-    padding-left: 20px;
+  width: 369.37px;
+  height: 58px;
+  font-weight: bold;
+  border-radius: 29px;
+  font-size: 22px;
+  text-align: start;
+  padding-left: 20px;
 }
 
-.Right input:focus{
-    outline: none;
+.Right input:focus {
+  outline: none;
 }
-.Left input:focus{
-    outline: none;
-}
-
-.Right p{
-    padding-right: 290px;
+.Left input:focus {
+  outline: none;
 }
 
-.inner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
+.Right p {
+  padding-right: 290px;
 }
 
-.radiobtns{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    gap: 20px;
-    align-items: center;
+.inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.radiobtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 20px;
+  align-items: center;
 }
 
 .radiobtns p {
-    font-size: 22px;
-   
+  font-size: 22px;
 }
 
-
-
-.saveCancelContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 55px;
+.paymentMethod {
+  width: 848px;
+  height: 92px;
+  border-radius: 46px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.saveCancelContainer p {
-    font-size: 22px;
-    color: #A3A1A1;
-    font-weight: 900;
-
+.paymentMethod:hover {
+  background-color: #fff9de;
 }
 
-.save{
-    background-color: #FFF9DE;
-    border-radius: 29px;
-    font-size: 22px;
-    font-weight: bolder;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 30px;
+.thec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1410px;
+  left: 120px;
 }
 
-.paymentMethod{
-    width: 848px;
-    height: 92px;
-    border-radius: 46px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-
+.payNow {
+  width: 336.03px;
+  height: 58px;
+  border-radius: 29px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 50px;
 }
-
-.paymentMethod:hover{
-    background-color: #FFF9DE;
-}
-
-.thec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 1410px;
-    left: 120px
-}
-
-.payNow{
-    width: 336.03px;
-    height: 58px;
-    border-radius: 29px;
-    text-align: center;
-    font-size: 21px;
-    font-weight: bold;
-    margin-left: 50px;
-
-}
-
 
 .blueDiv2 {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 756px;
-    height: 979.48px;
-    border-radius: 17px;
-    border: 1.5px solid #000000;
-    background-color: #C2EDED;
-    overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 756px;
+  height: 979.48px;
+  border-radius: 17px;
+  border: 1.5px solid #000000;
+  background-color: #c2eded;
+  overflow-y: auto;
 }
 
 .blackLine2 {
-    width: 90%;
-    height: 1px;
-    background-color: #000000;
-    margin: 0 auto;
+  width: 90%;
+  height: 1px;
+  background-color: #000000;
+  margin: 0 auto;
 }
-.inTitle{
-    margin-left: 5%;
-}
-
-.orderContainer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    padding-top: 2%;
-    margin-bottom: 1%;
-    border-top: 2px solid black;
-    width: 90%;
+.inTitle {
+  margin-left: 5%;
 }
 
-.pl{
-    padding-left: 2%;
+.orderContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  padding-top: 2%;
+  margin-bottom: 1%;
+  border-top: 2px solid black;
+  width: 90%;
+}
+
+.pl {
+  padding-left: 2%;
 }
 
 .bt {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
-.bb{
-    border-bottom: 1px solid black;
-}
-
-.theBreakThingy{
-    font-size: 25px;
-    padding-right: 250px;
+.bb {
+  border-bottom: 1px solid black;
 }
 
-.itemimg{
-    background-color: white;
-    border-radius: 69px;
-    width: 184.82px;
-    height: 175.2px;
-    padding: 10px;
+.theBreakThingy {
+  font-size: 25px;
+  padding-right: 250px;
 }
 
-.totalAndStuff1{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 2px solid black;
-    margin: 0 auto;
+.itemimg {
+  background-color: white;
+  border-radius: 69px;
+  width: 184.82px;
+  height: 175.2px;
+  padding: 10px;
 }
 
-.totalInsideText1{
-    width: 100%;
-    border-top: 1px solid black;
+.totalAndStuff1 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+  margin: 0 auto;
 }
 
+.totalInsideText1 {
+  width: 100%;
+  border-top: 1px solid black;
+}
 
-.total{
-    font-size: 55px;
+.total {
+  font-size: 55px;
 }
 .totalText {
-    padding-right: 200px;
+  padding-right: 200px;
 }
 
-.btnContainer{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 5%;
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 .proceedbtn {
-    height: 100%;
-    border-radius: 30px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 25px;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  height: 100%;
+  border-radius: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 25px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .proceedbtn:hover {
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
-    border-radius: 30px;
-    transition: all 0.3s ease;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  transition: all 0.3s ease;
 }

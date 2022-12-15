@@ -87,7 +87,7 @@ const handleChange = (e) => {
       type="text"
       value={creditCardNumber}
       onChange={handleChange}
-      maxLength="31"
+      maxLength="37"
     />
 
             
