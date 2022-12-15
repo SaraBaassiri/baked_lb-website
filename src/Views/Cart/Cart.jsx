@@ -20,7 +20,8 @@ export default function Cart() {
   };
 
   useEffect(() => {
-    // document.body.style.zoom = "75%";
+    document.body.style.zoom = "75%";
+
     calculateTotal();
   });
 
