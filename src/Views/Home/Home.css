@@ -42,7 +42,7 @@
 
 .Hero-Title {
   color: white;
-  font-size: 90.6px;
+  font-size: 120px;
   font-weight: normal;
   margin-bottom: 0;
   margin-top: 120px;
@@ -79,16 +79,17 @@
 
 .Hero-SubTitle {
   z-index: 1;
-  font-size: 21px;
+  font-size: 25px;
   margin-right: 3%;
   font-weight: bold;
   padding: 10px;
+  font-family: "poppins" sans-serif;
 }
 
 .HeroButton {
   background-color: #FBE6A8;
   color: black;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 28px;
   padding: 10px 25px;
@@ -97,6 +98,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-family: "poppins" sans-serif;
 }
 
 /* Meet the Baker */
@@ -164,27 +166,29 @@
   margin-top: 60px;
   background-color: #e0d2f5;
   color: black;
-  font-size: 16px;
-  font-weight: medium;
+  font-size: 18px;
+  font-weight: normal;
   border-radius: 28px;
   padding: 10px 25px;
   border: none;
   cursor: pointer;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 300px;
   text-transform: uppercase;
+  font-family: "poppins" sans-serif;
 }
 
 .Baker-Title {
   color: #3b3b3b;
-  font-size: 48px;
+  font-size: 55px;
   text-align: left;
   display: flex;
   font-weight: 400;
   margin-top: 30px;
   padding-top: 30px;
   margin-bottom: 5px;
+  font-family: "Keira Serif Free", sans-serif;
 }
 
 .BlackLine {
@@ -201,6 +205,8 @@
   text-align: left;
   display: flex;
   margin-bottom: 5%;
+  width: 75%;
+  font-family: "poppins" sans-serif;
 }
 
 /* Products Section */
@@ -211,7 +217,7 @@
   width: 89%;
   padding-top: 75px;
   padding-right: 20px;
-  font: 60px;
+  font-size: 50px;
   margin: 0 auto;
   font-family: "Keira Serif Free", sans-serif;
   font-weight: normal;
@@ -389,6 +395,7 @@
   font-size: 50px;
   margin-top: 100px;
   font-weight: 400;
+  font-family: "Keira Serif Free", sans-serif;
 }
 
 .BlackLineFav {
@@ -438,18 +445,21 @@
   font-weight: 600;
   margin-top: 20px;
   text-align: center;
+  font-family: "poppins" sans-serif;
 }
 
 #desc {
   font-size: 20px;
   font-weight: 250;
   text-align: center;
+  font-family: "poppins" sans-serif;
 }
 
 #price {
   font-size: 17px;
   font-weight: bold;
   text-align: center;
+  font-family: "poppins" sans-serif;
 }
 
 #buyNowBtn {
@@ -466,6 +476,7 @@
   margin-right: auto;
   text-transform: uppercase;
   margin-bottom: 10%;
+  font-family: "poppins" sans-serif;
 }
 
 /* Create Your Own Section Styling */
@@ -529,13 +540,15 @@
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+  font-family: "poppins" sans-serif;
 }
 
 .Custom-Title {
   color: black;
-  font-size: 50px;
+  font-size: 55px;
   text-align: left;
   font-weight: normal;
+  font-family: "Keira Serif Free", sans-serif;
 }
 
 .BlackLineCustom {
@@ -551,6 +564,7 @@
   color: black;
   font-size: 25px;
   font-weight: 250;
+  font-family: "poppins" sans-serif;
 }
 
 /* Special Ocasions code */
@@ -560,11 +574,12 @@
 }
 
 .SpecialOcasions h1 {
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
   margin-top: 100px;
   font-weight: normal;
   margin-bottom: 100px;
+  font-family: "Keira Serif Free", sans-serif;
 }
 
 .item {
