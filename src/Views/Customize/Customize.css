@@ -22,8 +22,8 @@
 
 .CustomizeInnerImage {
     background-color: #C2EDED;
-    height: 400px;
-    width: 400px;
+    height: 30vw;
+    width: 30vw;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@
 .otherHalf {
     background-color: #E0D2F5;
     height: 30px;
-    width: 400px;
+    width: 30vw;
     margin-top: -16px;
 }
 

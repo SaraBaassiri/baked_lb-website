@@ -6,6 +6,10 @@ export default function Customize() {
   const [half, setHalf] = React.useState("First Half");
   const [crust, setCrust] = React.useState("");
 
+  const handleSecondHalf = () => {
+    setHalf("Second Half");
+  };
+
   return (
     <div className="customize">
       <div className="titles">
@@ -16,7 +20,11 @@ export default function Customize() {
         <Grid item xs={8}>
           <div className="CustomizeItem">
             <div className="CustomizeInnerImage">
-              <img src="/RedHalf.png" alt="" />
+              {half === "First Half" ? (
+                <img src="/RedHalf.png" alt="" />
+              ) : (
+                <img src="/MNMHALF.png" alt="" />
+              )}
               <span className="InnerBackground" />
             </div>
             <div className="otherHalf">
@@ -96,7 +104,13 @@ export default function Customize() {
               </div>
             </div>
             <div className="secondHalf">
-              <button>Proceed with the second half</button>
+              {half === "First Half" ? (
+                <button onClick={handleSecondHalf}>
+                  Proceed with the second half
+                </button>
+              ) : (
+                <button>Proceed to Checkout</button>
+              )}
             </div>
           </div>
         </Grid>
