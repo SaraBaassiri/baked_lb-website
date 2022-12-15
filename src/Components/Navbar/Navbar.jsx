@@ -5,12 +5,12 @@ import { BsSearch, BsCartDash } from "react-icons/bs";
 import { FaRegUserCircle } from "react-icons/fa";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
-import Auth from "../popups/auth"
+import Auth from "../popups/auth";
 import { click } from "@testing-library/user-event/dist/click";
 
 export default function Navbar() {
   const navigate = useNavigate();
-  const [clicked, setClicked] = useState(false)
+  const [clicked, setClicked] = useState(false);
   return (
     <div className="navbar">
       <div className="logo">
@@ -39,7 +39,7 @@ export default function Navbar() {
             className={
               document.location.pathname !== "/contact-us"
                 ? "inactive"
-                : "underline"
+                : "underlineLonger"
             }
           >
             Contact Us
@@ -52,16 +52,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className="navbarIcons">
-          <FaRegUserCircle size={25} 
-
-          onClick ={
-            ()=>{
-              setClicked(
-                !clicked
-              )
-            }
-          }
-        
+          <FaRegUserCircle
+            size={25}
+            onClick={() => {
+              setClicked(!clicked);
+            }}
           />
           <BsCartDash
             size={25}
@@ -72,7 +67,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      { clicked ? <Auth/> : null}
+      {clicked ? <Auth /> : null}
     </div>
   );
 }
