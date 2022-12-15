@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width:100%;
     background-color: #f5f5f5;
     height: 100%;
 }
@@ -42,12 +42,12 @@ h3{
     flex-direction: column;
     margin-bottom: 2%;
     gap: 20px;
-    width: 50%;
+    width: 40%;
 }
 
 .BigInput{
-   width: 848px;
-   height: 92px;
+   width: 700px;
+   height: 85px;
     border-radius: 46px;
     border: 2px solid black;
     padding-bottom: 10px;
@@ -74,7 +74,6 @@ h3{
     font-weight: bold;
     font-size: 21px;
     padding-left: 20px; 
-
 }
 .BigInput p span{
     padding-left: 50px;
@@ -82,12 +81,11 @@ h3{
 
 .shipping{
     height: 58px;
-    width: 845px;
+    width: 500px;
     border-radius: 29px;
     font-weight: bold;
     text-align: start;
     border: 2px solid black;
-    padding-left: 20px;
 }
 
 .shipping p{
@@ -251,7 +249,7 @@ h3{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 756px;
+    width: 500px;
     height: 979.48px;
     border-radius: 17px;
     border: 1.5px solid #000000;
