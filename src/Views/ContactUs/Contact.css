@@ -19,14 +19,19 @@
   margin: 20px;
 }
 
-.title {
+.title2 {
   text-align: left;
-  font: 60px;
+  font-size: 38px;
   font-family: "Keira Serif Free", sans-serif;
   font-weight: normal;
+  margin-bottom: 5px;
+  /* margin-left: 10px; */
 }
 .cout {
   font-family: "LoveLetters", sans-serif;
+  font-size: 20px;
+  /* margin-left: 10px; */
+  margin-bottom: 15px;
 }
 .messagebox {
   width: 90%;
@@ -52,10 +57,10 @@
 
 .Line {
   width: 74.5px;
-  margin-left: 23px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  height: 4px;
+  /* margin-left: 23px; */
+  /* margin-top: 5px; */
+  margin-bottom: 25px;
+  height: 3px;
   background-color: black;
 }
 
