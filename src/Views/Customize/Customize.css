@@ -47,14 +47,15 @@
 
 .otherHalf {
     background-color: #E0D2F5;
-    height: 30px;
+    height: 35px;
     width: 30vw;
     margin-top: -16px;
 }
 
 .otherHalf p {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 1.2em;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
     /* padding: 5px; */
     text-align: center;
     margin-top: 5px;
@@ -111,8 +112,10 @@
 
 .crustOptions button {
     background-color: #E0D2F5;
-    font-weight: 525;
-    border-radius: 15px;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
     width: 13vw;
     height: 60px;
 }
@@ -151,8 +154,10 @@
 
 .flavorOptions button {
     background-color: #E0D2F5;
-    font-weight: 525;
-    border-radius: 15px;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
     width: 13vw;
     height: 60px;
     margin: 5px 2px;
@@ -192,8 +197,10 @@
 
 .toppingOptions button {
     background-color: #E0D2F5;
-    font-weight: 525;
-    border-radius: 15px;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
     width: 13vw;
     height: 60px;
     margin: 5px 2px;
@@ -204,9 +211,10 @@
     margin-top: 50px;
     background-color: #C2EDED;
     font-weight: 500;
-    border-radius: 15px;
+    border-radius: 50px;
     text-transform: none;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     justify-self: center;
     width: 25vw;
     height: 60px;
@@ -216,4 +224,37 @@
 .secondHalf button:hover {
     opacity: 0.8;
     background-color: #C2EDED;
+}
+
+.InnerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    min-height: 300px;
+    align-items: center;
+    width: 32vw;
+}
+
+.AddOrRemove {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #C2EDED;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.InnerConButton {
+    background-color: #C2EDED;
+    font-weight: 500;
+    border-radius: 50px;
+    text-transform: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    justify-self: center;
+    width: 15vw;
+    height: 60px;
+    transform: translate(30% ,0);
 }

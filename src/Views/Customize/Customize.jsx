@@ -3,11 +3,11 @@ import "./Customize.css";
 import { Grid } from "@mui/material";
 
 export default function Customize() {
-  const [half, setHalf] = React.useState("First Half");
+  const [half, setHalf] = React.useState("1st Half");
   const [crust, setCrust] = React.useState("");
 
   const handleSecondHalf = () => {
-    setHalf("Second Half");
+    setHalf("2nd Half");
   };
 
   return (
@@ -20,7 +20,7 @@ export default function Customize() {
         <Grid item xs={8}>
           <div className="CustomizeItem">
             <div className="CustomizeInnerImage">
-              {half === "First Half" ? (
+              {half === "1st Half" ? (
                 <img src="/RedHalf.png" alt="" />
               ) : (
                 <img src="/MNMHALF.png" alt="" />
@@ -106,10 +106,18 @@ export default function Customize() {
             <div className="secondHalf">
               {half === "First Half" ? (
                 <button onClick={handleSecondHalf}>
-                  Proceed with the second half
+                  Proceed with the next half
                 </button>
               ) : (
-                <button>Proceed to Checkout</button>
+                <div className="InnerContent">
+                  <div className="AddOrRemove">
+                    <p>-</p>
+                    <p>0</p>
+                    <p>+</p>
+                  </div>
+                  <button className="InnerConButton">Customize another</button>
+                  <button className="InnerConButton">Add to cart</button>
+                </div>
               )}
             </div>
           </div>
