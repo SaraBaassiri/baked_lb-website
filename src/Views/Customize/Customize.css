@@ -227,6 +227,7 @@
 }
 
 .InnerContent {
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,7 +235,10 @@
     min-height: 300px;
     align-items: center;
     width: 32vw;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(10%, 0);
 }
+
 
 .AddOrRemove {
     display: flex;
@@ -247,14 +251,11 @@
 }
 
 .InnerConButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
     background-color: #C2EDED;
-    font-weight: 500;
-    border-radius: 50px;
-    text-transform: none;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    justify-self: center;
-    width: 15vw;
-    height: 60px;
-    transform: translate(30% ,0);
+    align-items: center;
+    border-radius: 50px; 
 }

@@ -115,8 +115,8 @@ export default function Customize() {
                     <p>0</p>
                     <p>+</p>
                   </div>
-                  <button className="InnerConButton">Customize another</button>
-                  <button className="InnerConButton">Add to cart</button>
+                  <div className="InnerConButton">Customize another</div>
+                  <div className="InnerConButton">Add to cart</div>
                 </div>
               )}
             </div>
