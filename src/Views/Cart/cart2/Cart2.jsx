@@ -30,14 +30,19 @@ export default function Cart() {
     setTotal(totalPrice);
   };
 
-  useEffect(() => {
-    calculateTotal();
-  });
+  useEffect(() => {  calculateTotal(); });
 
   return (
     <div className="Conatainer">
+      <meta name="viewport" content="width=device-width, initial-scale=0.75" />
       <h1 className="Title ml-5">Shopping Cart</h1>
       <div className="blackLine ml-5"></div>
+
+      <h className="ml-5" 
+      style={{
+        fontSize: "25px",
+      }}
+      >Homepage / Products / My Goodies Cart</h>
 
       <div className="inner">
         <div className="infoContainer">
@@ -123,6 +128,13 @@ export default function Cart() {
             </div>
           </div>
           <div className="Stuff">
+          <h
+          style={{
+            fontSize: "22px",
+            color: "#7F7F7F",
+            fontWeight: "bold",
+          }}
+          >Address Type</h>
             <div
               style={{
                 width: "100%",
@@ -134,7 +146,10 @@ export default function Cart() {
                 gap: "20px",
               }}
             >
-              <Radio /> <p style={{}}>Home (All Day Delivery)</p>
+              
+              <Radio /> <p style={{
+                marginRight: "160px",
+              }}>Home (All Day Delivery)</p>
               <Radio /> <p>Office (Delivery Between 10 AM - 5PM)</p>
             </div>
 
