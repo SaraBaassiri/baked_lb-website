@@ -484,7 +484,7 @@
 /* Create Your Own Section Styling */
 
 .CreateYourOwn {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: #c2eded;
   display: flex;
@@ -514,9 +514,9 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  width: 85%;
-  height: 85%;
-  object-fit: cover;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
   margin-bottom: 40px;
 }
 
