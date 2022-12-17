@@ -31,7 +31,7 @@ code {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 550px;
+  max-height: 700px;
   width: 80vw;
   min-width: 80vw;
   background-color: #E0D2F5;

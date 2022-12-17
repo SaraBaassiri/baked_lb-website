@@ -6,7 +6,6 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import Auth from "../popups/auth";
-import { click } from "@testing-library/user-event/dist/click";
 
 export default function Navbar() {
   const navigate = useNavigate();

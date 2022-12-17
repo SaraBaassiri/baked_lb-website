@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import "./Home.css";
 import "swiper/css/bundle";
 import "swiper/css/free-mode";
