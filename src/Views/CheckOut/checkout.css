@@ -9,7 +9,6 @@
 }
 
 .Title {
-  /* font-family: 'Keira Serif Free', serif; */
   font-size: 70px;
   font-weight: 350;
   color: #000000;
@@ -341,7 +340,20 @@ h3 {
   border-radius: 17px;
   border: 1.5px solid #000000;
   background-color: #c2eded;
+  -ms-overflow-style: none;
   overflow-y: auto;
+}
+.blueDiv2::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.blueDiv {
+  -ms-overflow-style: none;
+  overflow-y: auto;
+  max-height: 979.48px;
+}
+.blueDiv::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .blackLine2 {
@@ -401,6 +413,7 @@ h3 {
 .totalInsideText1 {
   width: 100%;
   border-top: 1px solid black;
+  padding: 40px;
 }
 
 .total {
