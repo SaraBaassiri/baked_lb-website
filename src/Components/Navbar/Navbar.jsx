@@ -24,6 +24,9 @@ export default function Navbar() {
             }
           >
             Home
+            <span
+              className={document.location.pathname !== "/" ? "" : "navLine"}
+            />
           </Link>
           <Link
             to="/shop"
@@ -32,6 +35,11 @@ export default function Navbar() {
             }
           >
             Shop
+            <span
+              className={
+                document.location.pathname !== "/shop" ? "" : "navLine"
+              }
+            />
           </Link>
           <Link
             to="/contact-us"
@@ -42,6 +50,11 @@ export default function Navbar() {
             }
           >
             Contact Us
+            <span
+              className={
+                document.location.pathname !== "/contact-us" ? "" : "navLine"
+              }
+            />
           </Link>
         </div>
         <div className="SearchBar">

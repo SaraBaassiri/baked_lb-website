@@ -80,5 +80,15 @@
 .underline {
   color: black;
   font-size: 19px;
-  border-bottom: 2px solid black;
+}
+
+
+.navLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 2px;
+  background-color: #000000;
 }

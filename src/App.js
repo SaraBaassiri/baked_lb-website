@@ -23,12 +23,12 @@ function App() {
   React.useEffect(() => {
     if (document.location.pathname !== "/") {
       let title =
-        "Baked - " +
+        "Baked | " +
         document.location.pathname.split("/")[1].charAt(0).toUpperCase() +
         document.location.pathname.split("/")[1].slice(1);
       document.title = title;
     } else {
-      document.title = "Baked - Home";
+      document.title = "Baked | Home";
     }
   });
 
