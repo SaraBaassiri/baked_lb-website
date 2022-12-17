@@ -1,88 +1,91 @@
 .navbar {
-    position: relative;
-    z-index: 10;
-    height: 110px;
-    background-color: #E0D2F5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px 0 50px;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+  position: relative;
+  z-index: 10;
+  height: 110px;
+  background-color: #e0d2f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 50px;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
 .logo {
-    padding-block: 25px;
+  padding-block: 25px;
 }
 
 .NavRight {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
 }
 
 .navRoutes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 18rem;
 }
 
 .navRoutes a {
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: 600;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .navRoutes a:hover {
-    color: #847994;
+  color: #847994;
 }
 
-
 .SearchBar {
-    display: flex;
-    flex-direction: row;
-    width: 10.5rem;
-    justify-content: space-between;
-    border: #000000 2px solid;
-    border-radius: 40px;
-    padding: 7px 15px;
+  display: flex;
+  flex-direction: row;
+  width: 10.5rem;
+  justify-content: space-between;
+  border: #000000 2px solid;
+  border-radius: 40px;
+  padding: 7px 15px;
 }
 
 .SearchBar input {
-    border: none;
-    outline: none;
-    width: 75%;
-    font-size: 14px;
-    font-weight: 600;
-    background-color: transparent;
+  border: none;
+  outline: none;
+  width: 75%;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
 }
 
 .navbarIcons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.5rem;
+}
+
+.navbarIcons:hover {
+  cursor: pointer;
 }
 
 .inactive {
-    color: #7F7F7F;
+  color: #7f7f7f;
 }
 
 .underline {
-    color: black;
-    font-size: 19px;
-    border-bottom: 2px solid black;
-    width: 30px;
+  color: black;
+  font-size: 19px;
+  border-bottom: 2px solid black;
+  width: 30px;
 }
 
 .underlineLonger {
-    color: black;
-    font-size: 19px;
-    border-bottom: 2px solid black;
+  color: black;
+  font-size: 19px;
+  border-bottom: 2px solid black;
 }
