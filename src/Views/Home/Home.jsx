@@ -377,6 +377,7 @@ export default function Home() {
 
       <div className="SpecialOcasions">
         <h1>Celebrating Special Occasions?</h1>
+        <div className="BlackLineCelebrate"></div>
         <Grid
           container
           spacing={15}
@@ -420,9 +421,6 @@ export default function Home() {
           <h2>Taking your celebration to a whole new level!</h2>
           <button className="lastButton">View All</button>
         </div>
-
-        {/* import Auth from "../../Components/popups/auth"; */}
-        {/* <Auth /> */}
       </div>
     </div>
   );
