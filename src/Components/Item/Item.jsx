@@ -25,7 +25,7 @@ export default function Item({ item, isAdded, amount }) {
         <span className="InnerBackground" />
       </div>
       <h2>{item.title}</h2>
-      <p>{item.Description}</p>
+      <p className="desc">{item.Description}</p>
       <h3 className="price">${item.Price}</h3>
       <div className="LowerItemSection">
         <div className="AddItem">
