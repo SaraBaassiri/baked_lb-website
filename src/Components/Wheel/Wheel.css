@@ -1,24 +1,25 @@
-  
-  #spin, #reset {
-    position: absolute;
-    bottom: 20vh;
-    right: 45vw;
-  }
-  
-  #spin:hover {
-    color: rgb(0, 180, 120);
-    border-color: rgb(0, 180, 120);
-  }
-  
-  #spin:focus, #reset:focus {
-    outline:none;
-  }
- 
-  #selector {
-    font-size: 40px;
-    z-index: 3;
-  }
-  
-  #result{
-    font-size:50px;
-  }
+#spin,
+#reset {
+  position: absolute;
+  bottom: 20vh;
+  right: 45vw;
+}
+
+#spin:hover {
+  color: rgb(0, 180, 120);
+  border-color: rgb(0, 180, 120);
+}
+
+#spin:focus,
+#reset:focus {
+  outline: none;
+}
+
+#selector {
+  font-size: 40px;
+  z-index: 3;
+}
+
+#result {
+  font-size: 50px;
+}
