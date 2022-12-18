@@ -216,7 +216,7 @@
   justify-content: center;
   text-align: center;
   width: 89%;
-  padding-top: 75px;
+  padding-top: 5px;
   padding-right: 20px;
   font-size: 50px;
   margin: 0 auto;
@@ -233,7 +233,7 @@
   width: 70px;
   height: 3px;
   background-color: black;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .title {
