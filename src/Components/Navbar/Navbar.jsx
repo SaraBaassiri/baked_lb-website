@@ -79,7 +79,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {clicked ? <Auth /> : null}
+      {clicked ? <Auth closeModal={setClicked} /> : null}
     </div>
   );
 }
